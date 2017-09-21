@@ -2,12 +2,12 @@ import {combineReducers} from 'redux';
 import {createStore, applyMiddleware} from 'redux';
 import thunk from 'redux-thunk';
 import {createLogger} from 'redux-logger';
-
+import absences from './Reducers/Abscences'
 
 export function CreateStore() {
     let logger = createLogger();
 
-    const providerEditors = combineReducers({});
+    const providerEditors = combineReducers({absences});
 
     let store = createStore(
         providerEditors,

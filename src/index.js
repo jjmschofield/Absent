@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import App from './App';
+import App from './AppContainer';
 import registerServiceWorker from './registerServiceWorker';
 import {Provider} from 'react-redux';
 import {CreateStore} from './Store';
