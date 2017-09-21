@@ -25,18 +25,19 @@ export function fetchAbsences(dispatch, callback = ()=>{}) {
 
     return function () {
         fetch('/sampledata.csv')
-            .then(
-                response => {
-                    GetJsonFromCsvResponse(response).then(
-                        json => {
-                            let absences = json;
-                            dispatch(fetchAbsencesSuccess(absences));
-                            callback(absences);
-                        }
-                    );
-                },
-                error => dispatch(fetchAbsencesFailure(error))
-            );
+        .then(
+            response => { return GetJsonFromCsvResponse(response) }
+        )
+        .then(
+            json => {
+                let absences = json;
+                dispatch(fetchAbsencesSuccess(absences));
+                callback(absences);
+            }
+        )
+        .catch(
+            error => dispatch(fetchAbsencesFailure(error))
+        );
     };
 }
 
@@ -44,6 +45,6 @@ export function fetchAbsences(dispatch, callback = ()=>{}) {
 
 function GetJsonFromCsvResponse(response){
     return response.text().then(
-        (result) => csvjson.toObject(result,{})
+        csv => csvjson.toObject(csv,{})
     );
 }
