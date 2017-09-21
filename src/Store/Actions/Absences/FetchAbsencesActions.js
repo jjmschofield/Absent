@@ -1,4 +1,5 @@
 import fetch from 'isomorphic-fetch';
+import csvjson from 'csvjson';
 import {Absence} from '../../Models/Absences/AbsenceModel';
 
 
@@ -23,14 +24,26 @@ export function fetchAbsences(dispatch, callback = ()=>{}) {
     dispatch(fetchAbsencesRequest());
 
     return function () {
-        fetch('https://www.reddit.com/r/ProgrammerHumor.json')
+        fetch('/sampledata.csv')
             .then(
-                function (response) {
-                    let absences = [];
-                    dispatch(fetchAbsencesSuccess(absences));
-                    callback(absences);
+                response => {
+                    GetJsonFromCsvResponse(response).then(
+                        json => {
+                            let absences = json;
+                            dispatch(fetchAbsencesSuccess(absences));
+                            callback(absences);
+                        }
+                    );
                 },
                 error => dispatch(fetchAbsencesFailure(error))
             );
     };
+}
+
+
+
+function GetJsonFromCsvResponse(response){
+    return response.text().then(
+        (result) => csvjson.toObject(result,{})
+    );
 }

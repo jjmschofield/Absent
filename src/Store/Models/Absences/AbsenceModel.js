@@ -1,8 +1,8 @@
 export class Absence{
-    constructor(userId, timestamp, period, type){
+    constructor(userId, date, unit, type){
         this.userId = userId;
-        this.timestamp = timestamp;
-        this.period = period;
+        this.date = date;
+        this.unit = unit;
         this.type = type;
     }
 }
