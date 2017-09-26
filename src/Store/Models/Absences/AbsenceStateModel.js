@@ -1,8 +1,9 @@
-export class AbsencesState{
+import {State} from '../StateModel';
+
+export class AbsencesState extends State{
     constructor(){
+        super();
         this.absencesByTimestamp = {};
-        this.isFetching = false;
-        this.lastUpdated = null;
     }
 }
 
