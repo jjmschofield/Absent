@@ -11,7 +11,7 @@ export function fetchAbsencesRequest(absencesState, action){
 export function fetchAbsencesSuccess(absencesState, action){
     return Object.assign({}, absencesState, {
         ...absencesState,
-        absencesByTimestamp: getAbsencesByTimestampFromApiResponse(action.apiJsonResponse),
+        absencesByDate: getAbsencesByTimestampFromApiResponse(action.apiJsonResponse),
         isFetching: false,
         fetchError: false,
         lastUpdated: new Date()
@@ -23,9 +23,16 @@ function getAbsencesByTimestampFromApiResponse(apiJsonResponse){
 
     for(let i = 0; i < apiJsonResponse.length; i++){ //TODO - this should be revised once required data structure is better understood
 
-        let absence = new Absence(apiJsonResponse[i].userid, apiJsonResponse[i].date, apiJsonResponse[i].unit, apiJsonResponse[i].type);
-        if(!absencesByTimestamp[absence.timestamp]) absencesByTimestamp[absence.timestamp] = [];
-        absencesByTimestamp[absence.timestamp].push(absence);
+        let absence = new Absence(
+            apiJsonResponse[i].userid,
+            apiJsonResponse[i].date,
+            apiJsonResponse[i].unit,
+            apiJsonResponse[i].value
+        );
+
+        if(!absencesByTimestamp[absence.dateString]) absencesByTimestamp[absence.dateString] = [];
+
+        absencesByTimestamp[absence.dateString].push(absence);
     }
 
     return absencesByTimestamp;
