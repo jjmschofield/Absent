@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "babel-polyfill": "^6.23.0",
+    "csvjson": "^4.3.4",
     "isomorphic-fetch": "^2.2.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

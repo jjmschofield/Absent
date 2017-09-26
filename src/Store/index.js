@@ -2,14 +2,20 @@ import {combineReducers} from 'redux';
 import {createStore, applyMiddleware} from 'redux';
 import thunk from 'redux-thunk';
 import {createLogger} from 'redux-logger';
-
+import absences from './Reducers/Abscences'
+import config from './Reducers/Config'
+import users from './Reducers/Users'
 
 export function CreateStore() {
     let logger = createLogger();
 
-    const providerEditors = combineReducers({});
+    const providerEditors = combineReducers({
+        config,
+        users,
+        absences
+    });
 
-    let store = createStore(
+    Store = createStore(
         providerEditors,
         applyMiddleware(
             thunk,
@@ -17,7 +23,9 @@ export function CreateStore() {
         )
     );
 
-    return store;
+    return Store;
 }
 
-export default CreateStore;
+export let Store;
+
+export default Store;

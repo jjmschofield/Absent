@@ -1,7 +1,3 @@
-# Porject Architecture
-Based on the following article https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1
-
-
 # Original Bootstrap Documentation
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
