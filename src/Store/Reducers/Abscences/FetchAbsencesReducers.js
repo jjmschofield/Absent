@@ -11,15 +11,15 @@ export function fetchAbsencesRequest(absencesState, action){
 export function fetchAbsencesSuccess(absencesState, action){
     return Object.assign({}, absencesState, {
         ...absencesState,
-        absencesByDate: getAbsencesByTimestampFromApiResponse(action.apiJsonResponse),
+        absencesByDate: getAbsencesByDateFromApiResponse(action.apiJsonResponse),
         isFetching: false,
         fetchError: false,
         lastUpdated: new Date()
     });
 }
 
-function getAbsencesByTimestampFromApiResponse(apiJsonResponse){
-    let absencesByTimestamp = {};
+function getAbsencesByDateFromApiResponse(apiJsonResponse){
+    let absencesByDate = {};
 
     for(let i = 0; i < apiJsonResponse.length; i++){ //TODO - this should be revised once required data structure is better understood
 
@@ -30,12 +30,12 @@ function getAbsencesByTimestampFromApiResponse(apiJsonResponse){
             apiJsonResponse[i].value
         );
 
-        if(!absencesByTimestamp[absence.dateString]) absencesByTimestamp[absence.dateString] = [];
+        if(!absencesByDate[absence.dateString]) absencesByDate[absence.dateString] = [];
 
-        absencesByTimestamp[absence.dateString].push(absence);
+        absencesByDate[absence.dateString].push(absence);
     }
 
-    return absencesByTimestamp;
+    return absencesByDate;
 }
 
 export function fetchAbsencesFailure(absencesState, action){
