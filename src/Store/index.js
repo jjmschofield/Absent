@@ -3,13 +3,17 @@ import {createStore, applyMiddleware} from 'redux';
 import thunk from 'redux-thunk';
 import {createLogger} from 'redux-logger';
 import absences from './Reducers/Abscences'
+import config from './Reducers/Config'
 
 export function CreateStore() {
     let logger = createLogger();
 
-    const providerEditors = combineReducers({absences});
+    const providerEditors = combineReducers({
+        config,
+        absences
+    });
 
-    let store = createStore(
+    Store = createStore(
         providerEditors,
         applyMiddleware(
             thunk,
@@ -17,7 +21,9 @@ export function CreateStore() {
         )
     );
 
-    return store;
+    return Store;
 }
 
-export default CreateStore;
+export let Store;
+
+export default Store;
