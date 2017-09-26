@@ -1,4 +1,3 @@
-import {Absence} from '../../Models/Absences/AbsenceModel';
 import {ApiRequest} from '../../Helpers/ApiHelpers'
 import {Store} from '../../index'
 
@@ -15,8 +14,8 @@ export function fetchAbsencesFailure(error) {
 }
 
 export const FETCH_ABSENCES_SUCCESS = 'FETCH_ABSENCES_SUCCESS';
-export function fetchAbsencesSuccess(absences) {
-    return {type: FETCH_ABSENCES_SUCCESS, absences}
+export function fetchAbsencesSuccess(apiJsonResponse) {
+    return {type: FETCH_ABSENCES_SUCCESS, apiJsonResponse}
 }
 
 export function fetchAbsences() {
