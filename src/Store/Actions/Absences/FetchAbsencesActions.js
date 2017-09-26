@@ -1,6 +1,6 @@
-import fetch from 'isomorphic-fetch';
-import csvjson from 'csvjson';
 import {Absence} from '../../Models/Absences/AbsenceModel';
+import {ApiRequest} from '../../Helpers/ApiHelpers'
+import {Store} from '../../index'
 
 
 export const FETCH_ABSENCES_REQUEST = 'FETCH_ABSENCES_REQUEST';
@@ -19,32 +19,17 @@ export function fetchAbsencesSuccess(absences) {
     return {type: FETCH_ABSENCES_SUCCESS, absences}
 }
 
-export function fetchAbsences(dispatch, callback = ()=>{}) {
+export function fetchAbsences() {
 
-    dispatch(fetchAbsencesRequest());
+    Store.dispatch(fetchAbsencesRequest());
 
     return function () {
-        fetch('/sampledata.csv')
-        .then(
-            response => { return GetJsonFromCsvResponse(response) }
-        )
-        .then(
-            json => {
-                let absences = json;
-                dispatch(fetchAbsencesSuccess(absences));
-                callback(absences);
-            }
-        )
-        .catch(
-            error => dispatch(fetchAbsencesFailure(error))
-        );
+        ApiRequest('/sampledata.csv')
+            .then(
+                (json) => Store.dispatch(fetchAbsencesSuccess(json))
+            )
+            .catch(
+                (error) => Store.dispatch(fetchAbsencesFailure(error))
+            );
     };
-}
-
-
-
-function GetJsonFromCsvResponse(response){
-    return response.text().then(
-        csv => csvjson.toObject(csv,{})
-    );
 }
