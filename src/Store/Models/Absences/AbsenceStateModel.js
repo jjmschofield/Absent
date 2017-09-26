@@ -3,7 +3,7 @@ import {State} from '../StateModel';
 export class AbsencesState extends State{
     constructor(){
         super();
-        this.absencesByTimestamp = {};
+        this.absencesByTimestamp = {}; //TODO - the storage structure here needs more thought
     }
 }
 
