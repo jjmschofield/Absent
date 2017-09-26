@@ -24,7 +24,7 @@ export function fetchAbsences() {
     Store.dispatch(fetchAbsencesRequest());
 
     return function () {
-        ApiRequest('/sampledata.csv')
+        ApiRequest(Store.getState().config.apiConfig.absencesEndpoint)
             .then(
                 (json) => Store.dispatch(fetchAbsencesSuccess(json))
             )
