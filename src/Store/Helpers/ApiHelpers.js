@@ -1,7 +1,7 @@
 import fetch from 'isomorphic-fetch';
 import csvjson from 'csvjson';
 
-export function ApiRequest(endpoint){
+export function ApiRequest(endpoint){ //TODO - SECURITY - in production we would should use an oAuth protected endpoint
     return fetch(endpoint)
         .then(
             response => {
