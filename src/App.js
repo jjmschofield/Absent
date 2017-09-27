@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {ViewHeader, ViewContent, ViewFooter} from './Components/View/index';
 
 export class App extends Component {
     constructor(props){
@@ -9,18 +10,10 @@ export class App extends Component {
 
     render() {
         return (
-            <div className="app">
-                <h1>Hello World</h1>
-                <div>
-                <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                    Button
-                </button>
-                </div>
-                <div>
-                <button className="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                    <i className="material-icons">add</i>
-                </button>
-                </div>
+            <div className="app mdl-layout mdl-js-layout">
+                <ViewHeader/>
+                <ViewContent/>
+                <ViewFooter/>
             </div>
         );
     }
