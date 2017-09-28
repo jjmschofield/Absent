@@ -1,0 +1,8 @@
+.team-calendar-scene{
+    overflow-x: auto;
+}
+
+.absences-calendar td.weekend {
+    color: #dedede;
+    background-color: #ccc;
+}
