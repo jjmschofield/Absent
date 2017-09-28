@@ -1,8 +1,38 @@
-.team-calendar-scene{
+.team-calendar-scene {
     overflow-x: auto;
 }
 
+.team-calendar-scene tr.month-headers th {
+    font-size: 1.4em;
+    opacity: 0.5;
+    height: auto;
+    padding-top: 8px;
+}
+
+th.span-multiple-columns {
+    position: absolute;
+}
+
+th.span-multiple-columns label {
+    position: relative;
+}
+
 .absences-calendar td.weekend {
-    color: #dedede;
+    color: rgba(0, 0, 0, .25);
     background-color: #ccc;
+}
+
+.absences-calendar tr.day-headers th {
+    font-size: 1.1em;
+}
+
+.absences-calendar td {
+    text-align: center;
+}
+
+.absences-calendar tr.user-days td:first-child {
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .54)
 }

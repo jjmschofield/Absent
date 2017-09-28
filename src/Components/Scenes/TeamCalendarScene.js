@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {GetFullMonth} from '../../Store/Helpers/DateHelpers'
 import './TeamCalendarScene.css';
 
 export class TeamCalendarScene extends Component {
@@ -16,6 +17,7 @@ export class TeamCalendarScene extends Component {
             <div className="team-calendar-scene">
                 <table className="absences-calendar mdl-data-table mdl-js-data-table mdl-shadow--2dp">
                     <thead>
+                    {this.getMonthHeaderRow()}
                     {this.getDayHeaderRow()}
                     </thead>
                     <tbody>
@@ -23,6 +25,39 @@ export class TeamCalendarScene extends Component {
                     </tbody>
                 </table>
             </div>
+        )
+    }
+
+    getMonthHeaderRow() {
+        return (
+            <tr className="month-headers">
+                {this.getMonthHeaders()}
+            </tr>
+        )
+    }
+
+    getMonthHeaders() {
+        let columns = [];
+        columns.push(<th></th>);
+
+        for (let i = 0; i < this.state.visibleDays.length; i++) {
+            let label = "";
+            if (i === 0 || this.state.visibleDays[i].getDate() === 1) {
+                label =
+                columns.push(
+                    <th className="span-multiple-columns mdl-data-table__cell--non-numeric">
+                        <label key={i}>{GetFullMonth(this.state.visibleDays[i])}</label>
+                    </th>
+                )
+            }
+            else{
+                columns.push(<th key={i} className="mdl-data-table__cell--non-numeric"></th>)
+            }
+
+        }
+
+        return (
+            columns
         )
     }
 
@@ -61,8 +96,8 @@ export class TeamCalendarScene extends Component {
             if (this.props.users.usersById.hasOwnProperty(id)) {
                 let user = this.props.users.usersById[id];
                 rows.push(
-                    <tr key={user.id} className="user-days mdl-data-table__cell--non-numeric">
-                        <td>
+                    <tr key={user.id} className="user-days">
+                        <td className="mdl-data-table__cell--non-numeric">
                             <label>{user.name}</label>
                         </td>
                         {this.getUserDays()}
@@ -82,7 +117,7 @@ export class TeamCalendarScene extends Component {
             let day = this.state.visibleDays[i];
 
             columns.push(
-                <td className={"mdl-data-table__cell--non-numeric" + this.getUserDayConditionalClasses(day)}>
+                <td className={this.getUserDayConditionalClasses(day)}>
                     {day.getDate()}
                 </td>
             )
