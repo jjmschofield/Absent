@@ -4,10 +4,14 @@ export function GetStandardDateString(nonStandardDateString){
 }
 
 
-export function GetFullMonth(date){
+export function getFullMonth(date){
     const monthNames = ["January", "February", "March", "April", "May", "June",
         "July", "August", "September", "October", "November", "December"
     ];
 
     return monthNames[date.getMonth()];
+}
+
+export function isWeekend(date) {
+    return date.getDay() === 0 || date.getDay() === 6;
 }

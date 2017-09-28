@@ -1,12 +1,17 @@
 .team-calendar-scene {
     overflow-x: auto;
+    padding-top: 1em;
 }
 
-.team-calendar-scene tr.month-headers th {
+.absences-calendar {
+    border: none;
+}
+
+.absences-calendar tr.month-headers th {
     font-size: 1.4em;
     opacity: 0.5;
-    height: auto;
-    padding-top: 8px;
+    height: 32px;
+    padding-bottom: 0;
 }
 
 th.span-multiple-columns {
@@ -17,7 +22,11 @@ th.span-multiple-columns label {
     position: relative;
 }
 
-.absences-calendar td.weekend {
+.absences-calendar thead {
+    border-top: none;
+}
+
+.absences-calendar .weekend {
     color: rgba(0, 0, 0, .25);
     background-color: #ccc;
 }
