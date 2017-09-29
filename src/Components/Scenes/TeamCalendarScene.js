@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {getFullMonth, isWeekend} from '../../Store/Helpers/DateHelpers'
+import {getShortMonth, isWeekend} from '../../Store/Helpers/DateHelpers'
 import './TeamCalendarScene.css';
 
 export class TeamCalendarScene extends Component {
@@ -15,15 +15,20 @@ export class TeamCalendarScene extends Component {
     render() {
         return (
             <div className="team-calendar-scene">
-                <table className="absences-calendar mdl-data-table mdl-js-data-table">
-                    <thead>
-                    {this.getMonthHeaderRow()}
-                    {this.getDayHeaderRow()}
-                    </thead>
-                    <tbody>
-                    {this.getUserRows()}
-                    </tbody>
-                </table>
+                <div className="mdl-grid">
+                    <div className="mdl-cell mdl-cell--12-col">
+
+                            <table className="absences-calendar mdl-data-table mdl-js-data-table">
+                                <thead>
+                                {this.getMonthHeaderRow()}
+                                {this.getDayHeaderRow()}
+                                </thead>
+                                <tbody>
+                                {this.getUserRows()}
+                                </tbody>
+                            </table>
+                    </div>
+                </div>
             </div>
         )
     }
@@ -117,6 +122,8 @@ export class TeamCalendarScene extends Component {
             columns.push(
                 <td className={this.getUserDayConditionalClasses(day)}>
                     {day.getDate()}
+                    <div className="AM"></div>
+                    <div className="PM"></div>
                 </td>
             )
         }

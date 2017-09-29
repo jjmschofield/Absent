@@ -5,10 +5,13 @@
 
 .absences-calendar {
     border: none;
+    min-width: 100%;
 }
 
 .absences-calendar tr.month-headers th {
     font-size: 1.4em;
+    text-align: center;
+    padding-left: 9px;
     opacity: 0.5;
     height: 32px;
     padding-bottom: 0;
@@ -35,8 +38,13 @@ th.span-multiple-columns label {
     font-size: 1.1em;
 }
 
-.absences-calendar td {
+.absences-calendar tr.day-headers th,
+.absences-calendar td,
+.absences-calendar td:last-of-type {
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 36px;
 }
 
 .absences-calendar tr.user-days td:first-child {
@@ -44,4 +52,27 @@ th.span-multiple-columns label {
     font-size: 1.1em;
     font-weight: 700;
     color: rgba(0, 0, 0, .54)
+}
+
+.absences-calendar tr.user-days td:not(.weekend) div {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 55;
+    top: 0;
+    cursor: pointer;
+}
+
+.absences-calendar tr.user-days td div:hover {
+    background-color: black;
+}
+
+.absences-calendar tr.user-days td div.PM {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+}
+
+.absences-calendar tr.user-days td:not(:first-child) {
+    font-size: 0.9em;
 }
