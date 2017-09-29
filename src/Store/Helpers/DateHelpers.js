@@ -12,6 +12,14 @@ export function getFullMonth(date){
     return monthNames[date.getMonth()];
 }
 
+export function getShortMonth(date){
+    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"
+    ];
+
+    return monthNames[date.getMonth()];
+}
+
 export function isWeekend(date) {
     return date.getDay() === 0 || date.getDay() === 6;
 }

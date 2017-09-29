@@ -44,7 +44,7 @@ export class TeamCalendarScene extends Component {
             if (i === 0 || this.state.visibleDays[i].getDate() === 1) {
                 columns.push(
                     <th className="span-multiple-columns mdl-data-table__cell--non-numeric">
-                        <label key={i}>{getFullMonth(this.state.visibleDays[i])}</label>
+                        <label key={i}>{getShortMonth(this.state.visibleDays[i])}</label>
                     </th>
                 )
             }
