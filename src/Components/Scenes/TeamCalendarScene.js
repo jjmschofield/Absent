@@ -13,10 +13,11 @@ export class TeamCalendarScene extends Component {
     }
 
     render() {
-        return (
-            <div className="team-calendar-scene">
-                <div className="mdl-grid">
-                    <div className="mdl-cell mdl-cell--12-col">
+        if (!this.props.users.isFetching && !this.props.absences.isFetching) {
+            return (
+                <div className="team-calendar-scene">
+                    <div className="mdl-grid">
+                        <div className="mdl-cell mdl-cell--12-col">
 
                             <table className="absences-calendar mdl-data-table mdl-js-data-table">
                                 <thead>
@@ -27,10 +28,14 @@ export class TeamCalendarScene extends Component {
                                 {this.getUserRows()}
                                 </tbody>
                             </table>
+                        </div>
                     </div>
                 </div>
-            </div>
-        )
+            )
+        }
+        else {
+            return null;
+        }
     }
 
     getMonthHeaderRow() {
@@ -53,7 +58,7 @@ export class TeamCalendarScene extends Component {
                     </th>
                 )
             }
-            else{
+            else {
                 columns.push(<th key={i} className="mdl-data-table__cell--non-numeric"></th>)
             }
 
@@ -81,7 +86,8 @@ export class TeamCalendarScene extends Component {
 
         for (let i = 0; i < this.state.visibleDays.length; i++) {
             columns.push(
-                <th key={i} className={"mdl-data-table__cell--non-numeric"  + this.getDayHeaderConditionalClasses(this.state.visibleDays[i])}>
+                <th key={i}
+                    className={"mdl-data-table__cell--non-numeric" + this.getDayHeaderConditionalClasses(this.state.visibleDays[i])}>
                     {this.state.visibleDays[i].toString().split(' ')[0][0]}
                 </th>
             )
@@ -103,7 +109,7 @@ export class TeamCalendarScene extends Component {
                         <td className="mdl-data-table__cell--non-numeric">
                             <label>{user.name}</label>
                         </td>
-                        {this.getUserDays()}
+                        {this.getUserDays(user)}
                     </tr>
                 )
             }
@@ -113,17 +119,18 @@ export class TeamCalendarScene extends Component {
         )
     }
 
-    getUserDays() {
+    getUserDays(user) {
         let columns = [];
 
         for (let i = 0; i < this.state.visibleDays.length; i++) {
             let day = this.state.visibleDays[i];
+            let absenceClasses = this.getAbsenceClasses(user, day);
 
             columns.push(
                 <td className={this.getUserDayConditionalClasses(day)}>
                     {day.getDate()}
-                    <div className="AM"></div>
-                    <div className="PM"></div>
+                    <div className={"AM " + absenceClasses.am}></div>
+                    <div className={"PM " + absenceClasses.pm}></div>
                 </td>
             )
         }
@@ -133,7 +140,32 @@ export class TeamCalendarScene extends Component {
         )
     }
 
-    getDayHeaderConditionalClasses(date){
+    getAbsenceClasses(user, date) {
+        let classes = {
+            am: "",
+            pm: "",
+            dateString: ""
+        };
+
+        let userAbsences = this.props.absences.absencesByUserId[user.id][date.getTime()];
+
+        if (userAbsences) {
+            console.log(date);
+            userAbsences.forEach((absence) => {
+                if (absence.unit === "AM") {
+                    classes.am = "booked " + absence.type;
+                }
+                else if (absence.unit === "PM") {
+                    classes.pm = "booked " + absence.type;
+                }
+                classes.isoDate = absence.isoDate;
+            })
+        }
+
+        return classes;
+    }
+
+    getDayHeaderConditionalClasses(date) {
         let conditionalClasses = "";
         if (isWeekend(date)) {
             conditionalClasses += " weekend";
@@ -154,6 +186,7 @@ export class TeamCalendarScene extends Component {
     getVisibleDays(numberOfDaysToShow, startDate = new Date()) {
         let days = [];
 
+        startDate = new Date("2016-12-29");
 
         for (let i = 0; i < numberOfDaysToShow; i++) {
             days.push(new Date(startDate.getFullYear(), startDate.getMonth(), startDate.getDate() + i)); //Date is in browser time
