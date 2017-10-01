@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {isWeekend} from '../../../Store/Helpers/DateHelpers';
+import {UserDayCell} from './UserDayCell';
 
 export class UserDayRow extends Component {
 
@@ -13,65 +13,27 @@ export class UserDayRow extends Component {
                 <td className="mdl-data-table__cell--non-numeric">
                     <label>{this.props.user.name}</label>
                 </td>
-                {this.getUserDays(this.props.user)}
+                {this.getUserDayCells()}
             </tr>
         )
     }
 
-    getUserDays() {
+    getUserDayCells() {
         let columns = [];
 
         for (let i = 0; i < this.props.dates.length; i++) {
             let date = this.props.dates[i];
-            let absenceClasses = this.getAbsenceClasses(date);
-
             columns.push(
-                <td key={i} className={this.getUserDayConditionalClasses(date)}>
-                    {date.getDate()}
-                    <div className={"AM " + absenceClasses.am}></div>
-                    <div className={"PM " + absenceClasses.pm}></div>
-                </td>
+                <UserDayCell user={this.props.user} date={date} absences={this.getAbsencesByDate(date)}/>
             )
         }
 
         return columns;
-
     }
 
-    getAbsenceClasses(date) {
-        let classes = {
-            am: "",
-            pm: "",
-
-        };
-
-        let userAbsences = this.props.absences[date.getTime()];
-
-        if (userAbsences) {
-            userAbsences.forEach((absence) => {
-                if (absence.unit === "AM") {
-                    classes.am = "booked " + absence.type;
-                }
-                else if (absence.unit === "PM") {
-                    classes.pm = "booked " + absence.type;
-                }
-                classes.isoDate = absence.isoDate;
-            })
-        }
-
-        return classes;
+    getAbsencesByDate(date){
+        return this.props.absences[date.getTime()];
     }
-
-    getUserDayConditionalClasses(date) {
-        let conditionalClasses = "";
-        if (isWeekend(date)) {
-            conditionalClasses += " weekend";
-        }
-
-        return conditionalClasses;
-    }
-
-
 }
 
 export default UserDayRow;
