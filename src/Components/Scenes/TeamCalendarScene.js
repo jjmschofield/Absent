@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {getShortMonth, isWeekend} from '../../Store/Helpers/DateHelpers'
+import {getShortMonth, isWeekend, getDatesAfter} from '../../Store/Helpers/DateHelpers'
 import './TeamCalendarScene.css';
 
 export class TeamCalendarScene extends Component {
@@ -8,7 +8,7 @@ export class TeamCalendarScene extends Component {
         super(props);
 
         this.state = {
-            visibleDays: this.getVisibleDays(31)
+            visibleDays: getDatesAfter(new Date("2016-12-29"), 31)
         }
     }
 
@@ -150,7 +150,6 @@ export class TeamCalendarScene extends Component {
         let userAbsences = this.props.absences.absencesByUserId[user.id][date.getTime()];
 
         if (userAbsences) {
-            console.log(date);
             userAbsences.forEach((absence) => {
                 if (absence.unit === "AM") {
                     classes.am = "booked " + absence.type;
@@ -183,17 +182,7 @@ export class TeamCalendarScene extends Component {
         return conditionalClasses;
     }
 
-    getVisibleDays(numberOfDaysToShow, startDate = new Date()) {
-        let days = [];
 
-        startDate = new Date("2016-12-29");
-
-        for (let i = 0; i < numberOfDaysToShow; i++) {
-            days.push(new Date(startDate.getFullYear(), startDate.getMonth(), startDate.getDate() + i)); //Date is in browser time
-        }
-
-        return days;
-    }
 
 }
 

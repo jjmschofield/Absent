@@ -27,3 +27,13 @@ export function isWeekend(date) {
     return date.getDay() === 0 || date.getDay() === 6;
 }
 
+export function getDatesAfter(startDate = new Date(), numberOfDates = 31 ) {
+    let dates = [];
+
+    for (let i = 0; i < numberOfDates; i++) {
+        dates.push(new Date(startDate.getFullYear(), startDate.getMonth(), startDate.getDate() + i));
+    }
+
+    return dates;
+}
+
