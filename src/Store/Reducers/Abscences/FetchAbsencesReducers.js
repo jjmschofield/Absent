@@ -2,7 +2,6 @@ import {Absence} from '../../Models/Absences/AbsenceModel';
 
 export function fetchAbsencesRequest(absencesState, action){
     return Object.assign({}, absencesState, {
-        ...absencesState,
         isFetching: true,
         fetchError: false
     });
@@ -10,8 +9,8 @@ export function fetchAbsencesRequest(absencesState, action){
 
 export function fetchAbsencesSuccess(absencesState, action){
     return Object.assign({}, absencesState, {
-        ...absencesState,
-        absencesByDate: getAbsencesByDateFromApiResponse(action.apiJsonResponse),
+        absencesByTimestamp: getAbsencesByDateFromApiResponse(action.apiJsonResponse),
+        absencesByUserId: getAbsencesByUserIdFromApiResponse(action.apiJsonResponse), //TODO - this is nasty nesting (and duplication), if absences had a unique ID this could be simplified
         isFetching: false,
         fetchError: false,
         lastUpdated: new Date()
@@ -19,28 +18,48 @@ export function fetchAbsencesSuccess(absencesState, action){
 }
 
 function getAbsencesByDateFromApiResponse(apiJsonResponse){
-    let absencesByDate = {};
+    let absencesByTimestamp = {};
 
-    for(let i = 0; i < apiJsonResponse.length; i++){ //TODO - this should be revised once required data structure is better understood
+    for(let i = 0; i < apiJsonResponse.length; i++){
 
-        let absence = new Absence(
-            apiJsonResponse[i].userid,
-            apiJsonResponse[i].date,
-            apiJsonResponse[i].unit,
-            apiJsonResponse[i].value
-        );
+        let absence = getAbsenceFromApiResponse(apiJsonResponse[i]);
 
-        if(!absencesByDate[absence.dateString]) absencesByDate[absence.dateString] = [];
+        if(!absencesByTimestamp[absence.timestamp]) absencesByTimestamp[absence.timestamp] = [];
 
-        absencesByDate[absence.dateString].push(absence);
+        absencesByTimestamp[absence.timestamp].push(absence);
     }
 
-    return absencesByDate;
+    return absencesByTimestamp;
+}
+
+function getAbsenceFromApiResponse(apiAbsenceObject){
+   return  new Absence(
+       apiAbsenceObject.userid,
+       apiAbsenceObject.date,
+       apiAbsenceObject.unit,
+       apiAbsenceObject.value
+    );
+}
+
+function getAbsencesByUserIdFromApiResponse(apiJsonResponse){
+    let absencesByUserId = {};
+
+    for(let i = 0; i < apiJsonResponse.length; i++){
+
+        let absence = getAbsenceFromApiResponse(apiJsonResponse[i]);
+
+        if(!absencesByUserId[absence.userId]) absencesByUserId[absence.userId] = {};
+
+        if(!absencesByUserId[absence.userId][absence.timestamp]) absencesByUserId[absence.userId][absence.timestamp] = [];
+
+        absencesByUserId[absence.userId][absence.timestamp].push(absence);
+    }
+
+    return absencesByUserId;
 }
 
 export function fetchAbsencesFailure(absencesState, action){
     return Object.assign({}, absencesState, {
-        ...absencesState,
         isFetching: false,
         fetchError: true
     });
