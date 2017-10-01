@@ -4,7 +4,14 @@ export function getIsoDateFromString(nonStandardDateString){
 }
 
 export function getDateFromIsoDate(isoString){
-    return new Date(isoString);
+
+    let isoSplit = isoString.split("-");
+
+    return new Date(
+        parseInt(isoSplit[0],10),
+        parseInt(isoSplit[1],10) - 1,
+        parseInt(isoSplit[2],10),
+    );
 }
 
 export function getFullMonth(date){
