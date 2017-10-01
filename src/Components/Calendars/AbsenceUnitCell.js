@@ -29,7 +29,7 @@ export class AbsenceUnitCell extends Component {
         let title = this.props.unit;
 
         if(this.props.absence){
-            title += ": Absent for " + this.props.absence.type;
+            title += ": Absent for " + this.props.absence.typeName;
         }
         else{
             title += ": Present";

@@ -9,6 +9,20 @@ export class Absence{
         this.timestamp = this.date.getTime();
         this.unit = unit;
         this.type = type;
+        this.typeName = getTypeName(this.type);
+    }
+}
+
+function getTypeName(type){
+    switch(type){
+        case("P"):
+            return "Public Holiday";
+        case("T"):
+            return "Training";
+        case("V"):
+            return "Vacation";
+        default:
+            return "Invalid";
     }
 }
 
