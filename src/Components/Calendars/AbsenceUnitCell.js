@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 export class AbsenceUnitCell extends Component {
 
     render() {
-        return <div className={this.getAbsenceClasses()}></div>;
+        return <div className={this.getAbsenceClasses()} title={this.getTitle()}></div>;
     }
 
     getAbsenceClasses() {
@@ -23,6 +23,19 @@ export class AbsenceUnitCell extends Component {
         }
 
         return classes.join(" ");
+    }
+
+    getTitle(){
+        let title = this.props.unit;
+
+        if(this.props.absence){
+            title += ": Absent for " + this.props.absence.type;
+        }
+        else{
+            title += ": Present";
+        }
+
+        return title;
     }
 }
 
