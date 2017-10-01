@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {HeaderMonthRow} from './HeaderMonthRow';
-import {HeaderDayRow} from './HeaderDayRow';
+import {HeaderMonthRow} from '../HeaderMonthRow';
+import {HeaderDayRow} from '../HeaderDayRow';
 
 export class TeamAbsenceTableHeader extends Component {
 

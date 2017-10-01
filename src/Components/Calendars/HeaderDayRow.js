@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {isWeekend, getFirstLetterDayName} from '../../../Store/Helpers/DateHelpers'
+import {isWeekend, getFirstLetterDayName} from '../../Store/Helpers/DateHelpers'
 
 export class HeaderDayRow extends Component {
 

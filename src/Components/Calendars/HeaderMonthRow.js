@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {getShortMonthName, isFirstDayOfMonth} from '../../../Store/Helpers/DateHelpers'
+import {getShortMonthName, isFirstDayOfMonth} from '../../Store/Helpers/DateHelpers'
 
 export class HeaderMonthRow extends Component {
 

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {isWeekend} from '../../../Store/Helpers/DateHelpers';
+import {isWeekend} from '../../Store/Helpers/DateHelpers';
 import {AbsenceUnitCell} from './AbsenceUnitCell';
 
 export class UserDayCell extends Component {

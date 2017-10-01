@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {UserDayRow} from './UserDayRow';
+import {UserDayRow} from '../UserDayRow';
 
 export class TeamAbsenceTableBody extends Component {
 
