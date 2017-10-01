@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {getShortMonth, isWeekend, getDatesAfter} from '../../../Store/Helpers/DateHelpers'
+import {isWeekend, getDatesAfter} from '../../../Store/Helpers/DateHelpers';
+import {MonthHeaderRow} from './MonthHeaderRow';
 
 export class TeamAbsenceCalendar extends Component {
 
@@ -7,7 +8,7 @@ export class TeamAbsenceCalendar extends Component {
         super(props);
 
         this.state = {
-            visibleDays: getDatesAfter(new Date(2016, 10, 15), 31)
+            dates: getDatesAfter(new Date(2016, 10, 15), 31)
         }
     }
 
@@ -16,7 +17,7 @@ export class TeamAbsenceCalendar extends Component {
             return (
                 <table className="absences-calendar mdl-data-table mdl-js-data-table">
                     <thead>
-                    {this.getMonthHeaderRow()}
+                    <MonthHeaderRow dates={this.state.dates}/>
                     {this.getDayHeaderRow()}
                     </thead>
                     <tbody>
@@ -28,37 +29,6 @@ export class TeamAbsenceCalendar extends Component {
         else {
             return null;
         }
-    }
-
-    getMonthHeaderRow() {
-        return (
-            <tr className="month-headers">
-                {this.getMonthHeaders()}
-            </tr>
-        )
-    }
-
-    getMonthHeaders() {
-        let columns = [];
-        columns.push(<th></th>);
-
-        for (let i = 0; i < this.state.visibleDays.length; i++) {
-            if (i === 0 || this.state.visibleDays[i].getDate() === 1) {
-                columns.push(
-                    <th className="span-multiple-columns mdl-data-table__cell--non-numeric">
-                        <label key={i}>{getShortMonth(this.state.visibleDays[i])}</label>
-                    </th>
-                )
-            }
-            else {
-                columns.push(<th key={i} className="mdl-data-table__cell--non-numeric"></th>)
-            }
-
-        }
-
-        return (
-            columns
-        )
     }
 
     getDayHeaderRow() {
@@ -76,11 +46,11 @@ export class TeamAbsenceCalendar extends Component {
             <th key={-1} className="mdl-data-table__cell--non-numeric"></th>
         );
 
-        for (let i = 0; i < this.state.visibleDays.length; i++) {
+        for (let i = 0; i < this.state.dates.length; i++) {
             columns.push(
                 <th key={i}
-                    className={"mdl-data-table__cell--non-numeric" + this.getDayHeaderConditionalClasses(this.state.visibleDays[i])}>
-                    {this.state.visibleDays[i].toString().split(' ')[0][0]}
+                    className={"mdl-data-table__cell--non-numeric" + this.getDayHeaderConditionalClasses(this.state.dates[i])}>
+                    {this.state.dates[i].toString().split(' ')[0][0]}
                 </th>
             )
         }
@@ -114,8 +84,8 @@ export class TeamAbsenceCalendar extends Component {
     getUserDays(user) {
         let columns = [];
 
-        for (let i = 0; i < this.state.visibleDays.length; i++) {
-            let day = this.state.visibleDays[i];
+        for (let i = 0; i < this.state.dates.length; i++) {
+            let day = this.state.dates[i];
             let absenceClasses = this.getAbsenceClasses(user, day);
 
             columns.push(
