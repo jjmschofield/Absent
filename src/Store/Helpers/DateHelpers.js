@@ -34,6 +34,10 @@ export function isWeekend(date) {
     return date.getDay() === 0 || date.getDay() === 6;
 }
 
+export function isFirstDayOfMonth(date){
+    return date.getDate() === 1;
+}
+
 export function getDatesAfter(startDate = new Date(), numberOfDates = 31 ) {
     let dates = [];
 
