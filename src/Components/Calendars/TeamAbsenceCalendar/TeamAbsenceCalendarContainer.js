@@ -4,7 +4,8 @@ import {TeamAbsenceCalendar} from './TeamAbsenceCalendar';
 const mapStateToProps = (state) => {
     return {
         absences: state.absences,
-        users: state.users
+        users: state.users,
+        dates: state.teamCalendar.visibleDates
     }
 };
 

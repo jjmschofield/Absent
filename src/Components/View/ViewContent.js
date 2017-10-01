@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import TeamCalendarScene from '../Scenes/TeamCalendarSceneContainer';
+import TeamCalendarScene from '../Scenes/TeamCalendarScene';
 
 export class ViewContent extends Component{
 

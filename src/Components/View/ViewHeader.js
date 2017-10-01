@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {LogoIcon, GitHubIcon, LinkedInIcon} from '../Icons/index';
+import TeamCalendarSceneToolbar from '../Scenes/TeamCalendarScenToolbarContainer'
 
 export class ViewHeader extends Component {
 
@@ -22,6 +23,7 @@ export class ViewHeader extends Component {
                         </a>
                     </nav>
                 </div>
+                <TeamCalendarSceneToolbar />
             </header>
         )
     }
