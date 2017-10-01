@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {isWeekend} from '../../../Store/Helpers/DateHelpers';
+import {UserAbsenceRow} from './UserAbsenceRow';
 
 export class TeamAbsenceTableBody extends Component {
 
@@ -19,75 +19,27 @@ export class TeamAbsenceTableBody extends Component {
         for (let id in this.props.users.usersById) {
             if (this.props.users.usersById.hasOwnProperty(id)) {
                 let user = this.props.users.usersById[id];
+
                 rows.push(
-                    <tr key={user.id} className="user-days">
-                        <td className="mdl-data-table__cell--non-numeric">
-                            <label>{user.name}</label>
-                        </td>
-                        {this.getUserDays(user)}
-                    </tr>
+                    <UserAbsenceRow
+                        key={user.id}
+                        user={user}
+                        dates={this.props.dates}
+                        absences={this.getAbsences(user)}
+                    />
                 )
             }
         }
-        return (
-            rows
-        )
+
+        return rows;
     }
 
-    getUserDays(user) {
-        let columns = [];
+    getAbsences(user){
+        let absences = this.props.absences.absencesByUserId[user.id];
 
-        for (let i = 0; i < this.props.dates.length; i++) {
-            let day = this.props.dates[i];
-            let absenceClasses = this.getAbsenceClasses(user, day);
-
-            columns.push(
-                <td className={this.getUserDayConditionalClasses(day)}>
-                    {day.getDate()}
-                    <div className={"AM " + absenceClasses.am}></div>
-                    <div className={"PM " + absenceClasses.pm}></div>
-                </td>
-            )
-        }
-
-        return (
-            columns
-        )
+        if(absences) return absences;
+        else return [];
     }
-
-    getAbsenceClasses(user, date) {
-        let classes = {
-            am: "",
-            pm: "",
-
-        };
-
-        let userAbsences = this.props.absences.absencesByUserId[user.id][date.getTime()];
-
-        if (userAbsences) {
-            userAbsences.forEach((absence) => {
-                if (absence.unit === "AM") {
-                    classes.am = "booked " + absence.type;
-                }
-                else if (absence.unit === "PM") {
-                    classes.pm = "booked " + absence.type;
-                }
-                classes.isoDate = absence.isoDate;
-            })
-        }
-
-        return classes;
-    }
-
-    getUserDayConditionalClasses(date) {
-        let conditionalClasses = "";
-        if (isWeekend(date)) {
-            conditionalClasses += " weekend";
-        }
-
-        return conditionalClasses;
-    }
-
 
 }
 
