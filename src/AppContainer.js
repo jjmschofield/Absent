@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 import {App} from './App';
+import { setVisibleDates } from './Store/Actions/TeamCalendar';
 import { fetchAbsences } from './Store/Actions/Absences';
 import { fetchUsers } from './Store/Actions/Users';
 
@@ -17,6 +18,9 @@ const mapDispatchToProps = (dispatch) => {
         },
         fetchUsers: () =>{
             dispatch(fetchUsers());
+        },
+        setVisibleDates: (dates) =>{
+            dispatch(setVisibleDates(dates));
         }
     }
 };
