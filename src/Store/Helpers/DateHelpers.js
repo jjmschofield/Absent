@@ -42,6 +42,10 @@ export function isFirstDayOfMonth(date){
     return date.getDate() === 1;
 }
 
+export function isFirstDayOfYear(date){
+    return date.getMonth() === 0  && date.getDate() === 1;
+}
+
 export function getDatesAfter(startDate = new Date(), numberOfDates = 31 ) {
     let dates = [];
 

@@ -8,13 +8,18 @@
     min-width: 100%;
 }
 
-.absences-calendar tr.month-headers th {
+.absences-calendar tr.month-headers th,
+.absences-calendar tr.year-headers th{
     font-size: 1.4em;
     text-align: center;
     padding-left: 9px;
     opacity: 0.5;
     height: 32px;
     padding-bottom: 0;
+}
+
+.absences-calendar tr.year-headers th{
+    font-size: 0.9em;
 }
 
 th.span-multiple-columns {
