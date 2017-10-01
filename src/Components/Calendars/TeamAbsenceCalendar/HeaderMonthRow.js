@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {getShortMonthName, isFirstDayOfMonth} from '../../../Store/Helpers/DateHelpers'
 
-export class MonthHeaderRow extends Component {
+export class HeaderMonthRow extends Component {
 
     render() {
         return (
@@ -50,6 +50,6 @@ export class MonthHeaderRow extends Component {
 
 }
 
-export default MonthHeaderRow;
+export default HeaderMonthRow;
 
 

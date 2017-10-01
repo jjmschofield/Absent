@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {UserAbsenceRow} from './UserAbsenceRow';
+import {UserDayRow} from './UserDayRow';
 
 export class TeamAbsenceTableBody extends Component {
 
@@ -9,8 +9,6 @@ export class TeamAbsenceTableBody extends Component {
             {this.getUserRows()}
             </tbody>
         );
-
-
     }
 
     getUserRows() {
@@ -21,7 +19,7 @@ export class TeamAbsenceTableBody extends Component {
                 let user = this.props.users.usersById[id];
 
                 rows.push(
-                    <UserAbsenceRow
+                    <UserDayRow
                         key={user.id}
                         user={user}
                         dates={this.props.dates}

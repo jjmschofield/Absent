@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {isWeekend} from '../../../Store/Helpers/DateHelpers';
 
-export class UserAbsenceRow extends Component {
+export class UserDayRow extends Component {
 
     render() {
         return this.renderUserRow();
@@ -74,6 +74,6 @@ export class UserAbsenceRow extends Component {
 
 }
 
-export default UserAbsenceRow;
+export default UserDayRow;
 
 

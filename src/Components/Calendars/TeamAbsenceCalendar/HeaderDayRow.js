@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {isWeekend, getFirstLetterDayName} from '../../../Store/Helpers/DateHelpers'
 
-export class DayHeaderRow extends Component {
+export class HeaderDayRow extends Component {
 
     render() {
         return (
@@ -43,7 +43,7 @@ export class DayHeaderRow extends Component {
 
 }
 
-export default DayHeaderRow;
+export default HeaderDayRow;
 
 
 
