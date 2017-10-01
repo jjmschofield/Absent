@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {isWeekend, getDatesAfter} from '../../../Store/Helpers/DateHelpers';
 import {MonthHeaderRow} from './MonthHeaderRow';
+import {DayHeaderRow} from './DayHeaderRow';
 
 export class TeamAbsenceCalendar extends Component {
 
@@ -18,7 +19,7 @@ export class TeamAbsenceCalendar extends Component {
                 <table className="absences-calendar mdl-data-table mdl-js-data-table">
                     <thead>
                     <MonthHeaderRow dates={this.state.dates}/>
-                    {this.getDayHeaderRow()}
+                    <DayHeaderRow dates={this.state.dates}/>
                     </thead>
                     <tbody>
                     {this.getUserRows()}
@@ -124,15 +125,6 @@ export class TeamAbsenceCalendar extends Component {
         }
 
         return classes;
-    }
-
-    getDayHeaderConditionalClasses(date) {
-        let conditionalClasses = "";
-        if (isWeekend(date)) {
-            conditionalClasses += " weekend";
-        }
-
-        return conditionalClasses;
     }
 
     getUserDayConditionalClasses(date) {
