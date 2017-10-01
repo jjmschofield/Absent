@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import {TeamCalendarSceneToolbar} from './TeamCalendarSceneToolbar';
-import { setVisibleDates } from '../../Store/Actions/TeamCalendar';
+import {TeamAbsenceCalendarDateControl} from './TeamAbsenceCalendarDateControl';
+import { setVisibleDates } from '../../../Store/Actions/TeamCalendar';
 
 const mapStateToProps = (state) => {
     return {
@@ -16,10 +16,10 @@ const mapDispatchToProps = (dispatch) => {
     }
 };
 
-const TeamCalendarSceneToolbarContainer = connect(
+const TeamAbsenceCalendarDateControlContainer = connect(
     mapStateToProps,
     mapDispatchToProps
-)(TeamCalendarSceneToolbar);
+)(TeamAbsenceCalendarDateControl);
 
-export default TeamCalendarSceneToolbarContainer
+export default TeamAbsenceCalendarDateControlContainer
 

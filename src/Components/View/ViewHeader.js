@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {LogoIcon, GitHubIcon, LinkedInIcon} from '../Icons/index';
-import TeamCalendarSceneToolbar from '../Scenes/TeamCalendarScenToolbarContainer'
+import TeamCalendarSceneToolbar from '../Calendars/TeamAbsenceCalendar/TeamAbsenceCalendarDateControlContainer'
 
 export class ViewHeader extends Component {
 
@@ -13,6 +13,8 @@ export class ViewHeader extends Component {
                         &nbsp;Absent - Plan your leave
                     </div>
                     <div className="mdl-layout-spacer"></div>
+                    <TeamCalendarSceneToolbar />
+                    <div className="mdl-layout-spacer"></div>
                     <nav className="mdl-navigation">
                         <a className="mdl-navigation__link" href="http://github.com/jjmschofield/Absent">
                             <GitHubIcon />&nbsp;Source Code
@@ -23,7 +25,6 @@ export class ViewHeader extends Component {
                         </a>
                     </nav>
                 </div>
-                <TeamCalendarSceneToolbar />
             </header>
         )
     }

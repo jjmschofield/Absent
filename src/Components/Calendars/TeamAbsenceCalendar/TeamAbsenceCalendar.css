@@ -1,0 +1,108 @@
+.absences-calendar {
+    border: none;
+    min-width: 100%;
+}
+
+.absences-calendar tr.month-headers th,
+.absences-calendar tr.year-headers th{
+    font-size: 1.4em;
+    text-align: center;
+    padding-left: 9px;
+    opacity: 0.5;
+    height: 32px;
+    padding-bottom: 0;
+}
+
+.absences-calendar tr.year-headers th{
+    font-size: 0.9em;
+}
+
+
+
+.absences-calendar thead {
+    border-top: none;
+}
+
+.absences-calendar .weekend {
+    color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.absences-calendar tr.day-headers th {
+    font-size: 1.1em;
+}
+
+.absences-calendar tr.day-headers th,
+.absences-calendar td,
+.absences-calendar td:last-of-type {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 36px;
+}
+
+.absences-calendar tr.user-days td:first-child {
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .54)
+}
+
+.absences-calendar tr.user-days td:not(.weekend) div {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 55;
+    top: 0;
+    cursor: pointer;
+}
+
+.absences-calendar tr.user-days td div.booked{
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.absences-calendar tr.user-days div.booked.absence-type-V{
+    background-color: rgba(0, 188, 212, 0.6)
+}
+
+.absences-calendar tr.user-days div.booked.absence-type-V:hover{
+    background-color: rgba(0, 188, 212, 0.8)
+}
+
+.absences-calendar tr.user-days div.booked.conflict{
+    background-color: rgba(255,0,0, 0.5);
+}
+
+.absences-calendar tr.user-days div.booked.conflict:hover{
+    background-color: rgba(255,0,0, 0.4);
+}
+
+.absences-calendar tr.user-days div.booked.absence-type-P{
+    background-color: rgba(171, 71, 188, 0.6);
+}
+
+.absences-calendar tr.user-days div.booked.absence-type-P:hover{
+    background-color: rgba(171, 71, 188, 0.8);
+}
+
+.absences-calendar tr.user-days div.booked.absence-type-T{
+    background-color: rgba(139, 195, 74, 0.6);
+}
+
+.absences-calendar tr.user-days div.booked.absence-type-T:hover{
+    background-color: rgba(139, 195, 74, 0.8);
+}
+
+.absences-calendar tr.user-days td div:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.absences-calendar tr.user-days td div.PM {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+}
+
+.absences-calendar tr.user-days td:not(:first-child) {
+    font-size: 0.9em;
+}

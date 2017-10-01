@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {} from '../../../Store'
 import {TeamAbsenceTableBody} from './TeamAbsenceTableBody';
 import {TeamAbsenceTableHeader} from './TeamAbsenceTableHeader';
+import './TeamAbsenceCalendar.css';
 
 export class TeamAbsenceCalendar extends Component {
 
