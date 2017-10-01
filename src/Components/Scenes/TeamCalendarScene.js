@@ -8,7 +8,7 @@ export class TeamCalendarScene extends Component {
         super(props);
 
         this.state = {
-            visibleDays: getDatesAfter(new Date(2016, 11, 1), 31)
+            visibleDays: getDatesAfter(new Date(2016, 10, 15), 31)
         }
     }
 
