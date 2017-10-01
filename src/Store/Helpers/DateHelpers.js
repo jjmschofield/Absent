@@ -14,7 +14,7 @@ export function getDateFromIsoDate(isoString){
     );
 }
 
-export function getFullMonth(date){
+export function getFullMonthName(date){
     const monthNames = ["January", "February", "March", "April", "May", "June",
         "July", "August", "September", "October", "November", "December"
     ];
@@ -22,12 +22,16 @@ export function getFullMonth(date){
     return monthNames[date.getMonth()];
 }
 
-export function getShortMonth(date){
+export function getShortMonthName(date){
     const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
         "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"
     ];
 
     return monthNames[date.getMonth()];
+}
+
+export function getFirstLetterDayName(date){
+    return date.toString().split(' ')[0][0];
 }
 
 export function isWeekend(date) {

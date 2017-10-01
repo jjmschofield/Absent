@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {getShortMonth, isFirstDayOfMonth} from '../../../Store/Helpers/DateHelpers'
+import {getShortMonthName, isFirstDayOfMonth} from '../../../Store/Helpers/DateHelpers'
 
 export class MonthHeaderRow extends Component {
 
@@ -34,7 +34,7 @@ export class MonthHeaderRow extends Component {
 
 
     getMonthHeaderLabel(date) {
-        let monthName = getShortMonth(date);
+        let monthName = getShortMonthName(date);
 
         return (
             <th className="span-multiple-columns mdl-data-table__cell--non-numeric">
