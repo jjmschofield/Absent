@@ -12,7 +12,7 @@ function getApiRootByEnv(env){
         case("development"):
             return "/";
         case("production"):
-            return "/";
+            return "./";
         default:
             return "/"
     }
