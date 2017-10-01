@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {MonthHeaderRow} from './MonthHeaderRow';
-import {DayHeaderRow} from './DayHeaderRow';
 import {TeamAbsenceTableBody} from './TeamAbsenceTableBody';
+import {TeamAbsenceTableHeader} from './TeamAbsenceTableHeader';
+import {getDatesAfter} from '../../../Store/Helpers/DateHelpers';
 
 export class TeamAbsenceCalendar extends Component {
 
@@ -17,11 +17,12 @@ export class TeamAbsenceCalendar extends Component {
         if (!this.props.users.isFetching && !this.props.absences.isFetching) {
             return (
                 <table className="absences-calendar mdl-data-table mdl-js-data-table">
-                    <thead>
-                    <MonthHeaderRow dates={this.state.dates}/>
-                    <DayHeaderRow dates={this.state.dates}/>
-                    </thead>
-                    <TeamAbsenceTableBody dates={this.state.dates} users={this.props.users} absences={this.props.absences} />
+                    <TeamAbsenceTableHeader dates={this.state.dates}/>
+
+                    <TeamAbsenceTableBody dates={this.state.dates}
+                                          users={this.props.users}
+                                          absences={this.props.absences}
+                    />
                 </table>
             )
         }
