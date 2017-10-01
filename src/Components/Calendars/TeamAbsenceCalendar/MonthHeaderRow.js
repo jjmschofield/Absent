@@ -19,11 +19,11 @@ export class MonthHeaderRow extends Component {
             let date = this.props.dates[i];
 
             if (i === 0 || isFirstDayOfMonth(date)) { //We show month names for the first column and first day of the month
-                columns.push(this.getMonthHeaderLabel(date));
+                columns.push(this.getMonthHeaderLabel(date, i));
             }
 
             else {
-                columns.push(this.getMonthHeaderSpacer(date.timestamp))
+                columns.push(this.getMonthHeaderSpacer(i))
             }
 
         }
@@ -32,13 +32,12 @@ export class MonthHeaderRow extends Component {
     }
 
 
-
-    getMonthHeaderLabel(date) {
+    getMonthHeaderLabel(date, key) {
         let monthName = getShortMonthName(date);
 
         return (
-            <th className="span-multiple-columns mdl-data-table__cell--non-numeric">
-                <label key={date.timestamp}>
+            <th key={key} className="span-multiple-columns mdl-data-table__cell--non-numeric">
+                <label>
                     {monthName}
                 </label>
             </th>
