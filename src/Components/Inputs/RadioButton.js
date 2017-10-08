@@ -21,7 +21,7 @@ export class RadioButton extends Component {
         )
     }
 
-    toggleHandler(event){
+    toggleHandler(event){ //TODO - as MDL requires us to wrap the input in a label this will fire twice for each click
         this.props.toggleHandler(this.props.value);
     }
 

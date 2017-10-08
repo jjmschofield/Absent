@@ -5,13 +5,13 @@ import './AbsenceTypeSelector.css';
 
 export class AbsenceTypeSelector extends Component {
 
-    constructor(props){
-        super(props);
-
-        this.state = {
-            selectedAbsenceType: AbsenceTypes.VACATION
-        }
-    }
+    // constructor(props){
+    //     super(props);
+    //
+    //     this.state = {
+    //         selectedAbsenceType: AbsenceTypes.VACATION
+    //     }
+    // }
 
     render() {
         return (
@@ -48,13 +48,11 @@ export class AbsenceTypeSelector extends Component {
     }
 
     optionIsCurrentlySelected(absenceType){
-        return absenceType === this.state.selectedAbsenceType;
+        return absenceType === this.props.selectedAbsenceType;
     }
 
     optionSelectedHandler(absenceType){
-        this.setState({
-           selectedAbsenceType: absenceType
-        });
+        this.props.absenceTypeSelectedHandler(absenceType);
     }
 
 }

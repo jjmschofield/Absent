@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {LogoIcon} from '../Icons/index';
 import {Button} from '../Inputs/Button';
 import TeamCalendarSceneToolbar from '../Calendars/TeamAbsenceCalendar/TeamAbsenceCalendarDateControlContainer';
-import {AbsenceEditToolBar} from '../Toolbars/AbsenceEditToolbar';
+import AbsenceEditToolBar from '../Toolbars/AbsenceEditToolbarContainer';
 import './ViewHeader.css';
 
 export class ViewHeader extends Component {
