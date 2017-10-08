@@ -6,6 +6,7 @@ import absences from './Reducers/Abscences';
 import config from './Reducers/Config';
 import users from './Reducers/Users';
 import teamCalendar from './Reducers/TeamCalendar';
+import interaction from './Reducers/Interaction';
 
 export function CreateStore() {
     let logger = createLogger();
@@ -14,7 +15,8 @@ export function CreateStore() {
         config,
         users,
         absences,
-        teamCalendar
+        teamCalendar,
+        interaction
     });
 
     Store = createStore(
