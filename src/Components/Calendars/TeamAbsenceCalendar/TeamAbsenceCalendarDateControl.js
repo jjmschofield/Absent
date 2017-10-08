@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {getDatesAfter, getFullMonthName} from '../../../Store/Helpers/DateHelpers';
 import {Button} from '../../Inputs/Button';
-import './TeamAbsenceCalendarDateControl.css';
 
 export class TeamAbsenceCalendarDateControl extends Component {
 
