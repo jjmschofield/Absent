@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 import {AbsenceUnitCell} from './AbsenceUnitCell';
+import {updateAbsences} from '../../Store/Actions/Absences';
 
 const mapStateToProps = (state) => {
     return {
@@ -11,7 +12,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-
+        updateAbsence: (absence) => dispatch(updateAbsences(absence))
     }
 };
 

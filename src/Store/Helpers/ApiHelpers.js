@@ -15,6 +15,10 @@ export function ApiRequest(endpoint){ //TODO - SECURITY - in production we would
         )
 }
 
+export function FakeApiRequest(returnObject){ //Will just return what you give it in a resolved promise to mimic async behavior - TODO this should be removed once an API exists
+    return Promise.resolve(returnObject);
+}
+
 function GetJsonFromCsvResponse(response){
     return response.text().then(
         csv => csvjson.toObject(csv,{})
