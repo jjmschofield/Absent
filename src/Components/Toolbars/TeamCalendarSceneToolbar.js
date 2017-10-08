@@ -3,7 +3,6 @@ import AbsenceEditModeToggleButton from '../Inputs/AbsenceEditModeToggleButtonCo
 import TeamAbsenceCalendarDateControl from '../Calendars/TeamAbsenceCalendar/TeamAbsenceCalendarDateControlContainer';
 
 export class TeamCalendarSceneToolbar extends Component {
-
     render() {
         return (
             <div className="team-calendar-scene-toolbar mdl-navigation">
@@ -12,7 +11,6 @@ export class TeamCalendarSceneToolbar extends Component {
             </div>
         )
     }
-
 }
 
 export default TeamCalendarSceneToolbar;
