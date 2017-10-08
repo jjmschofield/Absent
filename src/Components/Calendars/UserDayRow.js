@@ -21,7 +21,6 @@ export class UserDayRow extends Component {
     getRowClassNames(){
         let classNames = [];
         classNames.push("user-days");
-        console.log(this.props);
 
         if(this.props.ownedByCurrentUser){
             classNames.push("owned-by-current-user")

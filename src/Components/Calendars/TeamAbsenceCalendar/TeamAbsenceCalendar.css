@@ -111,7 +111,7 @@
     color: rgba(0,0,0,0.4);
 }
 
-.absences-calendar.edit-mode tr.user-days:not(.owned-by-current-user) td div:hover {
+.absences-calendar.edit-mode tr.user-days:not(.owned-by-current-user) td div:not(.booked):hover {
     background-color: transparent;
 }
 
