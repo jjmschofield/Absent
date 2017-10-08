@@ -4,7 +4,8 @@ import {setAbsenceEditSelectedType} from '../../Store/Actions/Interaction';
 
 const mapStateToProps = (state) => {
     return {
-        selectedAbsenceType: state.interaction.absenceEditSelectedType
+        selectedAbsenceType: state.interaction.absenceEditSelectedType,
+        enabled: state.interaction.absenceEditEnabled
     }
 };
 

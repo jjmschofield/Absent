@@ -4,6 +4,15 @@ import './AbsenceEditToolbar.css';
 
 export class AbsenceEditToolBar extends Component {
     render() {
+        if(this.props.enabled){
+            return this.renderToolbar();
+        }
+        else{
+            return null;
+        }
+    }
+
+    renderToolbar(){
         return (
             <div className="absence-edit-toolbar mdl-layout__header-row">
                 <div className="mdl-layout-spacer"></div>
