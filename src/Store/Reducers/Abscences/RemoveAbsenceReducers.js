@@ -23,7 +23,3 @@ export function removeAbsenceFailure(absencesState, action){
         updateError: true
     });
 }
-
-function getAbsenceFromApiResponse(apiAbsenceObject){
-    return apiAbsenceObject;
-}

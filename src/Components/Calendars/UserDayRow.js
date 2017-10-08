@@ -36,6 +36,7 @@ export class UserDayRow extends Component {
             let date = this.props.dates[i];
             columns.push(
                 <UserDayCell
+                    key={date.getTime()}
                     user={this.props.user}
                     date={date}
                     absences={this.getAbsencesByDate(date)}

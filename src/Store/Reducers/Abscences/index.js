@@ -1,13 +1,13 @@
 import {AbsencesState} from '../../Models/Absences/AbsenceStateModel';
 import {
     FETCH_ABSENCES_REQUEST, FETCH_ABSENCES_SUCCESS, FETCH_ABSENCES_FAILURE,
-    UPDATE_ABSENCES_REQUEST, UPDATE_ABSENCES_SUCCESS, UPDATE_ABSENCES_FAILURE,
+    UPDATE_ABSENCE_REQUEST, UPDATE_ABSENCE_SUCCESS, UPDATE_ABSENCE_FAILURE,
     ADD_ABSENCE_REQUEST, ADD_ABSENCE_SUCCESS, ADD_ABSENCE_FAILURE,
     REMOVE_ABSENCE_REQUEST, REMOVE_ABSENCE_SUCCESS, REMOVE_ABSENCE_FAILURE
 } from '../../Actions/Absences';
 
 import {fetchAbsencesRequest, fetchAbsencesSuccess, fetchAbsencesFailure} from './FetchAbsencesReducers';
-import {updateAbsencesRequest, updateAbsencesSuccess, updateAbsencesFailure} from './UpdateAbsencesReducers';
+import {updateAbsenceRequest, updateAbsenceSuccess, updateAbsenceFailure} from './UpdateAbsenceReducers';
 import {addAbsenceRequest, addAbsenceSuccess, addAbsenceFailure} from './AddAbsenceReducers';
 import {removeAbsenceRequest, removeAbsenceSuccess, removeAbsenceFailure} from './RemoveAbsenceReducers';
 
@@ -30,12 +30,12 @@ export default function absences(absenceState = new AbsencesState(), action) {
             return addAbsenceFailure(absenceState, action);
 
         //UPDATE
-        case UPDATE_ABSENCES_REQUEST:
-            return updateAbsencesRequest(absenceState, action);
-        case UPDATE_ABSENCES_SUCCESS:
-            return updateAbsencesSuccess(absenceState, action);
-        case UPDATE_ABSENCES_FAILURE:
-            return updateAbsencesFailure(absenceState, action);
+        case UPDATE_ABSENCE_REQUEST:
+            return updateAbsenceRequest(absenceState, action);
+        case UPDATE_ABSENCE_SUCCESS:
+            return updateAbsenceSuccess(absenceState, action);
+        case UPDATE_ABSENCE_FAILURE:
+            return updateAbsenceFailure(absenceState, action);
 
         //REMOVE
         case REMOVE_ABSENCE_REQUEST:

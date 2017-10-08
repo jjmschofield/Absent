@@ -1,6 +1,6 @@
 import {FakeApiRequest} from '../../Helpers/ApiHelpers'
 import {Store} from '../../index'
-import {removeAbsenceFromUser} from '../Users/RelateUserToAbsenceActions';
+import {removeAbsenceFromUser} from '../Users/RelateAbsenceToUserActions';
 
 
 export const REMOVE_ABSENCE_REQUEST = 'REMOVE_ABSENCE_REQUEST';

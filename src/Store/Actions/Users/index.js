@@ -1,2 +1,2 @@
 export * from './FetchUsersActions';
-export * from './RelateUserToAbsenceActions';
+export * from './RelateAbsenceToUserActions';

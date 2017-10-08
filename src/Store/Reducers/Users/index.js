@@ -4,7 +4,7 @@ import {
     ADD_ABSENCE_TO_USER, REMOVE_ABSENCE_FROM_USER
 } from '../../Actions/Users';
 import {fetchUsersRequest, fetchUsersSuccess, fetchUsersFailure} from './FetchUsersReducers';
-import {addAbsenceToUser, removeAbsenceFromUSer} from './RelateUserToAbsenceReducers';
+import {addAbsenceToUser, removeAbsenceFromUSer} from './RelateAbsenceToUserReducers';
 
 export default function users(usersState = new UsersState(), action) {
     switch (action.type) {

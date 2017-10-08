@@ -1,5 +1,3 @@
-import {Store} from '../../index'
-
 export const ADD_ABSENCE_TO_USER = 'ADD_ABSENCE_TO_USER';
 export function addAbsenceToUser(absence) {
 

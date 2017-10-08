@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {AbsenceTypes} from '../../Store/Models/Absences/AbsenceTypes';
 import {Absence} from '../../Store/Models/Absences/AbsenceModel';
-import {HttpMethodTypes} from '../../Store/Helpers/ApiHelpers';
 
 export class AbsenceUnitCell extends Component {
 
