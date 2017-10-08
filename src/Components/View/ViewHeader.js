@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {LogoIcon} from '../Icons/index';
 import {Button} from '../Inputs/Button';
 import TeamCalendarSceneToolbar from '../Calendars/TeamAbsenceCalendar/TeamAbsenceCalendarDateControlContainer';
-import {AbsenceTypeSelector} from '../Inputs/AbsenceTypeSelector';
+import {AbsenceEditToolBar} from '../Toolbars/AbsenceEditToolbar';
 import './ViewHeader.css';
 
 export class ViewHeader extends Component {
@@ -20,10 +20,7 @@ export class ViewHeader extends Component {
                     <div className="mdl-layout-spacer"></div>
                     <Button><i className="material-icons">mode_edit</i></Button>
                 </div>
-                <div className="toolbar mdl-layout__header-row">
-                    <div className="mdl-layout-spacer"></div>
-                    <AbsenceTypeSelector />
-                </div>
+                <AbsenceEditToolBar />
             </header>
         )
     }
