@@ -5,14 +5,6 @@ import './AbsenceTypeSelector.css';
 
 export class AbsenceTypeSelector extends Component {
 
-    // constructor(props){
-    //     super(props);
-    //
-    //     this.state = {
-    //         selectedAbsenceType: AbsenceTypes.VACATION
-    //     }
-    // }
-
     render() {
         return (
             <ul className="absence-type-selectors">
