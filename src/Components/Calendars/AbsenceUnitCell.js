@@ -86,7 +86,15 @@ export class AbsenceUnitCell extends Component {
     }
 
     addNewAbsence(){
-        console.log("new", new Absence(null,this.props.user.id, this.props.date, this.props.unit,this.props.selectedAbsenceEditType));
+        this.props.addAbsence(
+            new Absence(
+                null,
+                this.props.user.id,
+                this.props.date,
+                this.props.unit,
+                this.props.selectedAbsenceEditType
+            )
+        );
     }
 
     removeAbsence(){

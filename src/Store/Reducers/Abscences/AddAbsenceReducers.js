@@ -1,11 +1,11 @@
-export function updateAbsencesRequest(absencesState, action){
+export function addAbsenceRequest(absencesState, action){
     return Object.assign({}, absencesState, {
         isUpdating: true,
         updateError: false
     });
 }
 
-export function updateAbsencesSuccess(absencesState, action){
+export function addAbsenceSuccess(absencesState, action){
     return Object.assign({}, absencesState, {
         absencesById: {
             ...absencesState.absencesById,
@@ -17,7 +17,7 @@ export function updateAbsencesSuccess(absencesState, action){
     });
 }
 
-export function updateAbsencesFailure(absencesState, action){
+export function addAbsenceFailure(absencesState, action){
     return Object.assign({}, absencesState, {
         isUpdating: false,
         updateError: true
