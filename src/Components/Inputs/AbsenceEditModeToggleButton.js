@@ -5,9 +5,14 @@ export class AbsenceEditModeToggleButton extends Component{
     render() {
         return (
             <Button clickHandler={this.props.toggleAbsenceEditEnabled}>
-                <i className="material-icons">mode_edit</i>
+                <i className="material-icons">{this.getIcon()}</i>
             </Button>
         )
+    }
+
+    getIcon(){
+        if(this.props.editMode) return "done";
+        else return "mode_edit";
     }
 }
 
