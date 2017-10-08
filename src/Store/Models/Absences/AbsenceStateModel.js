@@ -1,6 +1,6 @@
-import {State} from '../StateModel';
+import {ApiDataState} from '../ApiDataStateModel';
 
-export class AbsencesState extends State{
+export class AbsencesState extends ApiDataState{
     constructor(){
         super();
         this.absencesById = {};

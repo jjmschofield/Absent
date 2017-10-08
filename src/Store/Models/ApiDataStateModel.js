@@ -1,4 +1,4 @@
-export class State{
+export class ApiDataState{
     constructor(){
         this.isFetching = false;
         this.fetchError = false;
@@ -6,4 +6,4 @@ export class State{
     }
 }
 
-export default State;
+export default ApiDataState;
