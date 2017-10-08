@@ -1,679 +1,679 @@
-userid,name,date,unit,value
-1,Matthew Webb,Thu 2016-12-29,AM,P
-1,Matthew Webb,Thu 2016-12-29,PM,P
-1,Matthew Webb,Fri 2016-12-30,AM,P
-1,Matthew Webb,Fri 2016-12-30,PM,P
-1,Matthew Webb,Thu 2017-01-05,AM,P
-1,Matthew Webb,Thu 2017-01-05,PM,P
-1,Matthew Webb,Fri 2017-04-07,AM,P
-1,Matthew Webb,Mon 2017-04-10,PM,P
-1,Matthew Webb,Mon 2017-04-10,AM,P
-1,Matthew Webb,Mon 2017-05-08,PM,P
-1,Matthew Webb,Mon 2017-05-08,AM,P
-1,Matthew Webb,Mon 2017-05-29,PM,P
-1,Matthew Webb,Mon 2017-05-29,AM,P
-1,Matthew Webb,Mon 2017-09-04,PM,P
-1,Matthew Webb,Mon 2017-09-04,AM,P
-1,Matthew Webb,Fri 2017-12-29,PM,P
-1,Matthew Webb,Fri 2017-12-29,AM,P
-1,Matthew Webb,Mon 2018-01-01,PM,P
-1,Matthew Webb,Mon 2018-01-01,AM,P
-2,Thomas William Burgess,Thu 2016-12-29,AM,P
-2,Thomas William Burgess,Thu 2016-12-29,PM,P
-2,Thomas William Burgess,Fri 2016-12-30,AM,P
-2,Thomas William Burgess,Fri 2016-12-30,PM,P
-2,Thomas William Burgess,Thu 2017-01-05,AM,P
-2,Thomas William Burgess,Thu 2017-01-05,PM,P
-2,Thomas William Burgess,Fri 2017-04-07,AM,P
-2,Thomas William Burgess,Mon 2017-04-10,PM,P
-2,Thomas William Burgess,Mon 2017-04-10,AM,P
-2,Thomas William Burgess,Mon 2017-05-08,PM,P
-2,Thomas William Burgess,Mon 2017-05-08,AM,P
-2,Thomas William Burgess,Mon 2017-05-29,PM,P
-2,Thomas William Burgess,Mon 2017-05-29,AM,P
-2,Thomas William Burgess,Mon 2017-09-04,PM,P
-2,Thomas William Burgess,Mon 2017-09-04,AM,P
-2,Thomas William Burgess,Fri 2017-12-29,PM,P
-2,Thomas William Burgess,Fri 2017-12-29,AM,P
-2,Thomas William Burgess,Mon 2018-01-01,PM,P
-2,Thomas William Burgess,Mon 2018-01-01,AM,P
-3,Henry Sullivan,Thu 2016-12-29,AM,P
-3,Henry Sullivan,Thu 2016-12-29,PM,P
-3,Henry Sullivan,Fri 2016-12-30,AM,P
-3,Henry Sullivan,Fri 2016-12-30,PM,P
-3,Henry Sullivan,Thu 2017-01-05,AM,P
-3,Henry Sullivan,Thu 2017-01-05,PM,P
-3,Henry Sullivan,Fri 2017-04-07,AM,P
-3,Henry Sullivan,Mon 2017-04-10,PM,P
-3,Henry Sullivan,Mon 2017-04-10,AM,P
-3,Henry Sullivan,Mon 2017-05-08,PM,P
-3,Henry Sullivan,Mon 2017-05-08,AM,P
-3,Henry Sullivan,Mon 2017-05-29,PM,P
-3,Henry Sullivan,Mon 2017-05-29,AM,P
-3,Henry Sullivan,Mon 2017-09-04,PM,P
-3,Henry Sullivan,Mon 2017-09-04,AM,P
-3,Henry Sullivan,Fri 2017-12-29,PM,P
-3,Henry Sullivan,Fri 2017-12-29,AM,P
-3,Henry Sullivan,Mon 2018-01-01,PM,P
-3,Henry Sullivan,Mon 2018-01-01,AM,P
-4,Enrique Tirabocchi,Thu 2016-12-29,AM,P
-4,Enrique Tirabocchi,Thu 2016-12-29,PM,P
-4,Enrique Tirabocchi,Fri 2016-12-30,AM,P
-4,Enrique Tirabocchi,Fri 2016-12-30,PM,P
-4,Enrique Tirabocchi,Thu 2017-01-05,AM,P
-4,Enrique Tirabocchi,Thu 2017-01-05,PM,P
-4,Enrique Tirabocchi,Fri 2017-04-07,AM,P
-4,Enrique Tirabocchi,Mon 2017-04-10,PM,P
-4,Enrique Tirabocchi,Mon 2017-04-10,AM,P
-4,Enrique Tirabocchi,Mon 2017-05-08,PM,P
-4,Enrique Tirabocchi,Mon 2017-05-08,AM,P
-4,Enrique Tirabocchi,Mon 2017-05-29,PM,P
-4,Enrique Tirabocchi,Mon 2017-05-29,AM,P
-4,Enrique Tirabocchi,Mon 2017-09-04,PM,P
-4,Enrique Tirabocchi,Mon 2017-09-04,AM,P
-4,Enrique Tirabocchi,Fri 2017-12-29,PM,P
-4,Enrique Tirabocchi,Fri 2017-12-29,AM,P
-4,Enrique Tirabocchi,Mon 2018-01-01,PM,P
-4,Enrique Tirabocchi,Mon 2018-01-01,AM,P
-5,Charles Toth,Thu 2016-12-29,AM,P
-5,Charles Toth,Thu 2016-12-29,PM,P
-5,Charles Toth,Fri 2016-12-30,AM,P
-5,Charles Toth,Fri 2016-12-30,PM,P
-5,Charles Toth,Thu 2017-01-05,AM,P
-5,Charles Toth,Thu 2017-01-05,PM,P
-5,Charles Toth,Fri 2017-04-07,AM,P
-5,Charles Toth,Mon 2017-04-10,PM,P
-5,Charles Toth,Mon 2017-04-10,AM,P
-5,Charles Toth,Mon 2017-05-08,PM,P
-5,Charles Toth,Mon 2017-05-08,AM,P
-5,Charles Toth,Mon 2017-05-29,PM,P
-5,Charles Toth,Mon 2017-05-29,AM,P
-5,Charles Toth,Mon 2017-09-04,PM,P
-5,Charles Toth,Mon 2017-09-04,AM,P
-5,Charles Toth,Fri 2017-12-29,PM,P
-5,Charles Toth,Fri 2017-12-29,AM,P
-5,Charles Toth,Mon 2018-01-01,PM,P
-5,Charles Toth,Mon 2018-01-01,AM,P
-6,Gertrude Ederle,Thu 2016-12-29,AM,P
-6,Gertrude Ederle,Thu 2016-12-29,PM,P
-6,Gertrude Ederle,Fri 2016-12-30,AM,P
-6,Gertrude Ederle,Fri 2016-12-30,PM,P
-6,Gertrude Ederle,Thu 2017-01-05,AM,P
-6,Gertrude Ederle,Thu 2017-01-05,PM,P
-6,Gertrude Ederle,Fri 2017-04-07,AM,P
-6,Gertrude Ederle,Mon 2017-04-10,PM,P
-6,Gertrude Ederle,Mon 2017-04-10,AM,P
-6,Gertrude Ederle,Mon 2017-05-08,PM,P
-6,Gertrude Ederle,Mon 2017-05-08,AM,P
-6,Gertrude Ederle,Mon 2017-05-29,PM,P
-6,Gertrude Ederle,Mon 2017-05-29,AM,P
-6,Gertrude Ederle,Mon 2017-09-04,PM,P
-6,Gertrude Ederle,Mon 2017-09-04,AM,P
-6,Gertrude Ederle,Fri 2017-12-29,PM,P
-6,Gertrude Ederle,Fri 2017-12-29,AM,P
-6,Gertrude Ederle,Mon 2018-01-01,PM,P
-6,Gertrude Ederle,Mon 2018-01-01,AM,P
-7,Amelia Gade Corson,Thu 2016-12-29,AM,P
-7,Amelia Gade Corson,Thu 2016-12-29,PM,P
-7,Amelia Gade Corson,Fri 2016-12-30,AM,P
-7,Amelia Gade Corson,Fri 2016-12-30,PM,P
-7,Amelia Gade Corson,Thu 2017-01-05,AM,P
-7,Amelia Gade Corson,Thu 2017-01-05,PM,P
-7,Amelia Gade Corson,Fri 2017-04-07,AM,P
-7,Amelia Gade Corson,Mon 2017-04-10,PM,P
-7,Amelia Gade Corson,Mon 2017-04-10,AM,P
-7,Amelia Gade Corson,Mon 2017-05-08,PM,P
-7,Amelia Gade Corson,Mon 2017-05-08,AM,P
-7,Amelia Gade Corson,Mon 2017-05-29,PM,P
-7,Amelia Gade Corson,Mon 2017-05-29,AM,P
-7,Amelia Gade Corson,Mon 2017-09-04,PM,P
-7,Amelia Gade Corson,Mon 2017-09-04,AM,P
-7,Amelia Gade Corson,Fri 2017-12-29,PM,P
-7,Amelia Gade Corson,Fri 2017-12-29,AM,P
-7,Amelia Gade Corson,Mon 2018-01-01,PM,P
-7,Amelia Gade Corson,Mon 2018-01-01,AM,P
-8,Edward H. Temme,Thu 2016-12-29,AM,P
-8,Edward H. Temme,Thu 2016-12-29,PM,P
-8,Edward H. Temme,Fri 2016-12-30,AM,P
-8,Edward H. Temme,Fri 2016-12-30,PM,P
-8,Edward H. Temme,Thu 2017-01-05,AM,P
-8,Edward H. Temme,Thu 2017-01-05,PM,P
-8,Edward H. Temme,Fri 2017-04-07,AM,P
-8,Edward H. Temme,Mon 2017-04-10,PM,P
-8,Edward H. Temme,Mon 2017-04-10,AM,P
-8,Edward H. Temme,Mon 2017-05-08,PM,P
-8,Edward H. Temme,Mon 2017-05-08,AM,P
-8,Edward H. Temme,Mon 2017-05-29,PM,P
-8,Edward H. Temme,Mon 2017-05-29,AM,P
-8,Edward H. Temme,Mon 2017-09-04,PM,P
-8,Edward H. Temme,Mon 2017-09-04,AM,P
-8,Edward H. Temme,Fri 2017-12-29,PM,P
-8,Edward H. Temme,Fri 2017-12-29,AM,P
-8,Edward H. Temme,Mon 2018-01-01,PM,P
-8,Edward H. Temme,Mon 2018-01-01,AM,P
-9,Florence Chadwick,Thu 2016-12-29,AM,P
-9,Florence Chadwick,Thu 2016-12-29,PM,P
-9,Florence Chadwick,Fri 2016-12-30,AM,P
-9,Florence Chadwick,Fri 2016-12-30,PM,P
-9,Florence Chadwick,Thu 2017-01-05,AM,P
-9,Florence Chadwick,Thu 2017-01-05,PM,P
-9,Florence Chadwick,Fri 2017-04-07,AM,P
-9,Florence Chadwick,Mon 2017-04-10,PM,P
-9,Florence Chadwick,Mon 2017-04-10,AM,P
-9,Florence Chadwick,Mon 2017-05-08,PM,P
-9,Florence Chadwick,Mon 2017-05-08,AM,P
-9,Florence Chadwick,Mon 2017-05-29,PM,P
-9,Florence Chadwick,Mon 2017-05-29,AM,P
-9,Florence Chadwick,Mon 2017-09-04,PM,P
-9,Florence Chadwick,Mon 2017-09-04,AM,P
-9,Florence Chadwick,Fri 2017-12-29,PM,P
-9,Florence Chadwick,Fri 2017-12-29,AM,P
-9,Florence Chadwick,Mon 2018-01-01,PM,P
-9,Florence Chadwick,Mon 2018-01-01,AM,P
-10,Damian Piz  Beltran,Thu 2016-12-29,AM,P
-10,Damian Piz  Beltran,Thu 2016-12-29,PM,P
-10,Damian Piz  Beltran,Fri 2016-12-30,AM,P
-10,Damian Piz  Beltran,Fri 2016-12-30,PM,P
-10,Damian Piz  Beltran,Thu 2017-01-05,AM,P
-10,Damian Piz  Beltran,Thu 2017-01-05,PM,P
-10,Damian Piz  Beltran,Fri 2017-04-07,AM,P
-10,Damian Piz  Beltran,Mon 2017-04-10,PM,P
-10,Damian Piz  Beltran,Mon 2017-04-10,AM,P
-10,Damian Piz  Beltran,Mon 2017-05-08,PM,P
-10,Damian Piz  Beltran,Mon 2017-05-08,AM,P
-10,Damian Piz  Beltran,Mon 2017-05-29,PM,P
-10,Damian Piz  Beltran,Mon 2017-05-29,AM,P
-10,Damian Piz  Beltran,Mon 2017-09-04,PM,P
-10,Damian Piz  Beltran,Mon 2017-09-04,AM,P
-10,Damian Piz  Beltran,Fri 2017-12-29,PM,P
-10,Damian Piz  Beltran,Fri 2017-12-29,AM,P
-10,Damian Piz  Beltran,Mon 2018-01-01,PM,P
-10,Damian Piz  Beltran,Mon 2018-01-01,AM,P
-11,Marilyn Bell,Thu 2016-12-29,AM,P
-11,Marilyn Bell,Thu 2016-12-29,PM,P
-11,Marilyn Bell,Fri 2016-12-30,AM,P
-11,Marilyn Bell,Fri 2016-12-30,PM,P
-11,Marilyn Bell,Thu 2017-01-05,AM,P
-11,Marilyn Bell,Thu 2017-01-05,PM,P
-11,Marilyn Bell,Fri 2017-04-07,AM,P
-11,Marilyn Bell,Mon 2017-04-10,PM,P
-11,Marilyn Bell,Mon 2017-04-10,AM,P
-11,Marilyn Bell,Mon 2017-05-08,PM,P
-11,Marilyn Bell,Mon 2017-05-08,AM,P
-11,Marilyn Bell,Mon 2017-05-29,PM,P
-11,Marilyn Bell,Mon 2017-05-29,AM,P
-11,Marilyn Bell,Mon 2017-09-04,PM,P
-11,Marilyn Bell,Mon 2017-09-04,AM,P
-11,Marilyn Bell,Fri 2017-12-29,PM,P
-11,Marilyn Bell,Fri 2017-12-29,AM,P
-11,Marilyn Bell,Mon 2018-01-01,PM,P
-11,Marilyn Bell,Mon 2018-01-01,AM,P
-12,Brojen Das,Thu 2016-12-29,AM,P
-12,Brojen Das,Thu 2016-12-29,PM,P
-12,Brojen Das,Fri 2016-12-30,AM,P
-12,Brojen Das,Fri 2016-12-30,PM,P
-12,Brojen Das,Thu 2017-01-05,AM,P
-12,Brojen Das,Thu 2017-01-05,PM,P
-12,Brojen Das,Fri 2017-04-07,AM,P
-12,Brojen Das,Mon 2017-04-10,PM,P
-12,Brojen Das,Mon 2017-04-10,AM,P
-12,Brojen Das,Mon 2017-05-08,PM,P
-12,Brojen Das,Mon 2017-05-08,AM,P
-12,Brojen Das,Mon 2017-05-29,PM,P
-12,Brojen Das,Mon 2017-05-29,AM,P
-12,Brojen Das,Mon 2017-09-04,PM,P
-12,Brojen Das,Mon 2017-09-04,AM,P
-12,Brojen Das,Fri 2017-12-29,PM,P
-12,Brojen Das,Fri 2017-12-29,AM,P
-12,Brojen Das,Mon 2018-01-01,PM,P
-12,Brojen Das,Mon 2018-01-01,AM,P
-13,Arati Saha,Thu 2016-12-29,AM,P
-13,Arati Saha,Thu 2016-12-29,PM,P
-13,Arati Saha,Fri 2016-12-30,AM,P
-13,Arati Saha,Fri 2016-12-30,PM,P
-13,Arati Saha,Thu 2017-01-05,AM,P
-13,Arati Saha,Thu 2017-01-05,PM,P
-13,Arati Saha,Fri 2017-04-07,AM,P
-13,Arati Saha,Mon 2017-04-10,PM,P
-13,Arati Saha,Mon 2017-04-10,AM,P
-13,Arati Saha,Mon 2017-05-08,PM,P
-13,Arati Saha,Mon 2017-05-08,AM,P
-13,Arati Saha,Mon 2017-05-29,PM,P
-13,Arati Saha,Mon 2017-05-29,AM,P
-13,Arati Saha,Mon 2017-09-04,PM,P
-13,Arati Saha,Mon 2017-09-04,AM,P
-13,Arati Saha,Fri 2017-12-29,PM,P
-13,Arati Saha,Fri 2017-12-29,AM,P
-13,Arati Saha,Mon 2018-01-01,PM,P
-13,Arati Saha,Mon 2018-01-01,AM,P
-14,Mihir Sen,Thu 2016-12-29,AM,P
-14,Mihir Sen,Thu 2016-12-29,PM,P
-14,Mihir Sen,Fri 2016-12-30,AM,P
-14,Mihir Sen,Fri 2016-12-30,PM,P
-14,Mihir Sen,Thu 2017-01-05,AM,P
-14,Mihir Sen,Thu 2017-01-05,PM,P
-14,Mihir Sen,Fri 2017-04-07,AM,P
-14,Mihir Sen,Mon 2017-04-10,PM,P
-14,Mihir Sen,Mon 2017-04-10,AM,P
-14,Mihir Sen,Mon 2017-05-08,PM,P
-14,Mihir Sen,Mon 2017-05-08,AM,P
-14,Mihir Sen,Mon 2017-05-29,PM,P
-14,Mihir Sen,Mon 2017-05-29,AM,P
-14,Mihir Sen,Mon 2017-09-04,PM,P
-14,Mihir Sen,Mon 2017-09-04,AM,P
-14,Mihir Sen,Fri 2017-12-29,PM,P
-14,Mihir Sen,Fri 2017-12-29,AM,P
-14,Mihir Sen,Mon 2018-01-01,PM,P
-14,Mihir Sen,Mon 2018-01-01,AM,P
-15,Antonio Abertondo,Thu 2016-12-29,AM,P
-15,Antonio Abertondo,Thu 2016-12-29,PM,P
-15,Antonio Abertondo,Fri 2016-12-30,AM,P
-15,Antonio Abertondo,Fri 2016-12-30,PM,P
-15,Antonio Abertondo,Thu 2017-01-05,AM,P
-15,Antonio Abertondo,Thu 2017-01-05,PM,P
-15,Antonio Abertondo,Fri 2017-04-07,AM,P
-15,Antonio Abertondo,Mon 2017-04-10,PM,P
-15,Antonio Abertondo,Mon 2017-04-10,AM,P
-15,Antonio Abertondo,Mon 2017-05-08,PM,P
-15,Antonio Abertondo,Mon 2017-05-08,AM,P
-15,Antonio Abertondo,Mon 2017-05-29,PM,P
-15,Antonio Abertondo,Mon 2017-05-29,AM,P
-15,Antonio Abertondo,Mon 2017-09-04,PM,P
-15,Antonio Abertondo,Mon 2017-09-04,AM,P
-15,Antonio Abertondo,Fri 2017-12-29,PM,P
-15,Antonio Abertondo,Fri 2017-12-29,AM,P
-15,Antonio Abertondo,Mon 2018-01-01,PM,P
-15,Antonio Abertondo,Mon 2018-01-01,AM,P
-16,Jon Erikson,Thu 2016-12-29,AM,P
-16,Jon Erikson,Thu 2016-12-29,PM,P
-16,Jon Erikson,Fri 2016-12-30,AM,P
-16,Jon Erikson,Fri 2016-12-30,PM,P
-16,Jon Erikson,Thu 2017-01-05,AM,P
-16,Jon Erikson,Thu 2017-01-05,PM,P
-16,Jon Erikson,Fri 2017-04-07,AM,P
-16,Jon Erikson,Mon 2017-04-10,PM,P
-16,Jon Erikson,Mon 2017-04-10,AM,P
-16,Jon Erikson,Mon 2017-05-08,PM,P
-16,Jon Erikson,Mon 2017-05-08,AM,P
-16,Jon Erikson,Mon 2017-05-29,PM,P
-16,Jon Erikson,Mon 2017-05-29,AM,P
-16,Jon Erikson,Mon 2017-09-04,PM,P
-16,Jon Erikson,Mon 2017-09-04,AM,P
-16,Jon Erikson,Fri 2017-12-29,PM,P
-16,Jon Erikson,Fri 2017-12-29,AM,P
-16,Jon Erikson,Mon 2018-01-01,PM,P
-16,Jon Erikson,Mon 2018-01-01,AM,P
-17,John Maclean,Thu 2016-12-29,AM,P
-17,John Maclean,Thu 2016-12-29,PM,P
-17,John Maclean,Fri 2016-12-30,AM,P
-17,John Maclean,Fri 2016-12-30,PM,P
-17,John Maclean,Thu 2017-01-05,AM,P
-17,John Maclean,Thu 2017-01-05,PM,P
-17,John Maclean,Fri 2017-04-07,AM,P
-17,John Maclean,Mon 2017-04-10,PM,P
-17,John Maclean,Mon 2017-04-10,AM,P
-17,John Maclean,Mon 2017-05-08,PM,P
-17,John Maclean,Mon 2017-05-08,AM,P
-17,John Maclean,Mon 2017-05-29,PM,P
-17,John Maclean,Mon 2017-05-29,AM,P
-17,John Maclean,Mon 2017-09-04,PM,P
-17,John Maclean,Mon 2017-09-04,AM,P
-17,John Maclean,Fri 2017-12-29,PM,P
-17,John Maclean,Fri 2017-12-29,AM,P
-17,John Maclean,Mon 2018-01-01,PM,P
-17,John Maclean,Mon 2018-01-01,AM,P
-18,Philippe Croizon,Thu 2016-12-29,AM,P
-18,Philippe Croizon,Thu 2016-12-29,PM,P
-18,Philippe Croizon,Fri 2016-12-30,AM,P
-18,Philippe Croizon,Fri 2016-12-30,PM,P
-18,Philippe Croizon,Thu 2017-01-05,AM,P
-18,Philippe Croizon,Thu 2017-01-05,PM,P
-18,Philippe Croizon,Fri 2017-04-07,AM,P
-18,Philippe Croizon,Mon 2017-04-10,PM,P
-18,Philippe Croizon,Mon 2017-04-10,AM,P
-18,Philippe Croizon,Mon 2017-05-08,PM,P
-18,Philippe Croizon,Mon 2017-05-08,AM,P
-18,Philippe Croizon,Mon 2017-05-29,PM,P
-18,Philippe Croizon,Mon 2017-05-29,AM,P
-18,Philippe Croizon,Mon 2017-09-04,PM,P
-18,Philippe Croizon,Mon 2017-09-04,AM,P
-18,Philippe Croizon,Fri 2017-12-29,PM,P
-18,Philippe Croizon,Fri 2017-12-29,AM,P
-18,Philippe Croizon,Mon 2018-01-01,PM,P
-18,Philippe Croizon,Mon 2018-01-01,AM,P
-19,Trent Grimsey,Thu 2016-12-29,AM,P
-19,Trent Grimsey,Thu 2016-12-29,PM,P
-19,Trent Grimsey,Fri 2016-12-30,AM,P
-19,Trent Grimsey,Fri 2016-12-30,PM,P
-19,Trent Grimsey,Thu 2017-01-05,AM,P
-19,Trent Grimsey,Thu 2017-01-05,PM,P
-19,Trent Grimsey,Fri 2017-04-07,AM,P
-19,Trent Grimsey,Mon 2017-04-10,PM,P
-19,Trent Grimsey,Mon 2017-04-10,AM,P
-19,Trent Grimsey,Mon 2017-05-08,PM,P
-19,Trent Grimsey,Mon 2017-05-08,AM,P
-19,Trent Grimsey,Mon 2017-05-29,PM,P
-19,Trent Grimsey,Mon 2017-05-29,AM,P
-19,Trent Grimsey,Mon 2017-09-04,PM,P
-19,Trent Grimsey,Mon 2017-09-04,AM,P
-19,Trent Grimsey,Fri 2017-12-29,PM,P
-19,Trent Grimsey,Fri 2017-12-29,AM,P
-19,Trent Grimsey,Mon 2018-01-01,PM,P
-19,Trent Grimsey,Mon 2018-01-01,AM,P
-20,Philip Rush,Thu 2016-12-29,AM,P
-20,Philip Rush,Thu 2016-12-29,PM,P
-20,Philip Rush,Fri 2016-12-30,AM,P
-20,Philip Rush,Fri 2016-12-30,PM,P
-20,Philip Rush,Thu 2017-01-05,AM,P
-20,Philip Rush,Thu 2017-01-05,PM,P
-20,Philip Rush,Fri 2017-04-07,AM,P
-20,Philip Rush,Mon 2017-04-10,PM,P
-20,Philip Rush,Mon 2017-04-10,AM,P
-20,Philip Rush,Mon 2017-05-08,PM,P
-20,Philip Rush,Mon 2017-05-08,AM,P
-20,Philip Rush,Mon 2017-05-29,PM,P
-20,Philip Rush,Mon 2017-05-29,AM,P
-20,Philip Rush,Mon 2017-09-04,PM,P
-20,Philip Rush,Mon 2017-09-04,AM,P
-20,Philip Rush,Fri 2017-12-29,PM,P
-20,Philip Rush,Fri 2017-12-29,AM,P
-20,Philip Rush,Mon 2018-01-01,PM,P
-20,Philip Rush,Mon 2018-01-01,AM,P
-21,Kevin Murphy,Thu 2016-12-29,AM,P
-21,Kevin Murphy,Thu 2016-12-29,PM,P
-21,Kevin Murphy,Fri 2016-12-30,AM,P
-21,Kevin Murphy,Fri 2016-12-30,PM,P
-21,Kevin Murphy,Thu 2017-01-05,AM,P
-21,Kevin Murphy,Thu 2017-01-05,PM,P
-21,Kevin Murphy,Fri 2017-04-07,AM,P
-21,Kevin Murphy,Mon 2017-04-10,PM,P
-21,Kevin Murphy,Mon 2017-04-10,AM,P
-21,Kevin Murphy,Mon 2017-05-08,PM,P
-21,Kevin Murphy,Mon 2017-05-08,AM,P
-21,Kevin Murphy,Mon 2017-05-29,PM,P
-21,Kevin Murphy,Mon 2017-05-29,AM,P
-21,Kevin Murphy,Mon 2017-09-04,PM,P
-21,Kevin Murphy,Mon 2017-09-04,AM,P
-21,Kevin Murphy,Fri 2017-12-29,PM,P
-21,Kevin Murphy,Fri 2017-12-29,AM,P
-21,Kevin Murphy,Mon 2018-01-01,PM,P
-21,Kevin Murphy,Mon 2018-01-01,AM,P
-22,Alison Streeter,Thu 2016-12-29,AM,P
-22,Alison Streeter,Thu 2016-12-29,PM,P
-22,Alison Streeter,Fri 2016-12-30,AM,P
-22,Alison Streeter,Fri 2016-12-30,PM,P
-22,Alison Streeter,Thu 2017-01-05,AM,P
-22,Alison Streeter,Thu 2017-01-05,PM,P
-22,Alison Streeter,Fri 2017-04-07,AM,P
-22,Alison Streeter,Mon 2017-04-10,PM,P
-22,Alison Streeter,Mon 2017-04-10,AM,P
-22,Alison Streeter,Mon 2017-05-08,PM,P
-22,Alison Streeter,Mon 2017-05-08,AM,P
-22,Alison Streeter,Mon 2017-05-29,PM,P
-22,Alison Streeter,Mon 2017-05-29,AM,P
-22,Alison Streeter,Mon 2017-09-04,PM,P
-22,Alison Streeter,Mon 2017-09-04,AM,P
-22,Alison Streeter,Fri 2017-12-29,PM,P
-22,Alison Streeter,Fri 2017-12-29,AM,P
-22,Alison Streeter,Mon 2018-01-01,PM,P
-22,Alison Streeter,Mon 2018-01-01,AM,P
-23,Cynthia Nicholas,Thu 2016-12-29,AM,P
-23,Cynthia Nicholas,Thu 2016-12-29,PM,P
-23,Cynthia Nicholas,Fri 2016-12-30,AM,P
-23,Cynthia Nicholas,Fri 2016-12-30,PM,P
-23,Cynthia Nicholas,Thu 2017-01-05,AM,P
-23,Cynthia Nicholas,Thu 2017-01-05,PM,P
-23,Cynthia Nicholas,Fri 2017-04-07,AM,P
-23,Cynthia Nicholas,Mon 2017-04-10,PM,P
-23,Cynthia Nicholas,Mon 2017-04-10,AM,P
-23,Cynthia Nicholas,Mon 2017-05-08,PM,P
-23,Cynthia Nicholas,Mon 2017-05-08,AM,P
-23,Cynthia Nicholas,Mon 2017-05-29,PM,P
-23,Cynthia Nicholas,Mon 2017-05-29,AM,P
-23,Cynthia Nicholas,Mon 2017-09-04,PM,P
-23,Cynthia Nicholas,Mon 2017-09-04,AM,P
-23,Cynthia Nicholas,Fri 2017-12-29,PM,P
-23,Cynthia Nicholas,Fri 2017-12-29,AM,P
-23,Cynthia Nicholas,Mon 2018-01-01,PM,P
-23,Cynthia Nicholas,Mon 2018-01-01,AM,P
-1,Matthew Webb,Mon 2016-10-10,AM,V
-1,Matthew Webb,Mon 2016-10-10,PM,V
-1,Matthew Webb,Tue 2016-10-11,AM,V
-1,Matthew Webb,Tue 2016-10-11,PM,V
-1,Matthew Webb,Wed 2016-10-12,AM,V
-1,Matthew Webb,Wed 2016-10-12,PM,V
-1,Matthew Webb,Thu 2016-10-13,AM,V
-1,Matthew Webb,Thu 2016-10-13,PM,V
-1,Matthew Webb,Fri 2016-10-14,AM,V
-1,Matthew Webb,Fri 2016-10-14,PM,V
-1,Matthew Webb,Thu 2016-11-24,AM,V
-1,Matthew Webb,Thu 2016-11-24,PM,V
-1,Matthew Webb,Fri 2016-11-25,AM,V
-1,Matthew Webb,Fri 2016-11-25,PM,V
-1,Matthew Webb,Mon 2016-10-24,AM,T
-2,Thomas William Burgess,Mon 2016-12-26,AM,V
-2,Thomas William Burgess,Mon 2016-12-26,PM,V
-2,Thomas William Burgess,Tue 2016-12-27,AM,V
-2,Thomas William Burgess,Tue 2016-12-27,PM,V
-2,Thomas William Burgess,Wed 2016-12-28,AM,V
-2,Thomas William Burgess,Wed 2016-12-28,PM,V
-3,Henry Sullivan,Mon 2016-12-26,AM,V
-3,Henry Sullivan,Mon 2016-12-26,PM,V
-3,Henry Sullivan,Tue 2016-12-27,AM,V
-3,Henry Sullivan,Tue 2016-12-27,PM,V
-3,Henry Sullivan,Wed 2016-12-28,AM,V
-3,Henry Sullivan,Wed 2016-12-28,PM,V
-4,Enrique Tirabocchi,Mon 2016-12-26,AM,V
-4,Enrique Tirabocchi,Mon 2016-12-26,PM,V
-4,Enrique Tirabocchi,Tue 2016-12-27,AM,V
-4,Enrique Tirabocchi,Tue 2016-12-27,PM,V
-4,Enrique Tirabocchi,Wed 2016-12-28,AM,V
-4,Enrique Tirabocchi,Wed 2016-12-28,PM,V
-5,Charles Toth,Tue 2016-12-27,AM,V
-5,Charles Toth,Tue 2016-12-27,PM,V
-5,Charles Toth,Wed 2016-12-28,AM,V
-5,Charles Toth,Wed 2016-12-28,PM,V
-12,Brojen Das,Tue 2016-12-27,AM,V
-12,Brojen Das,Tue 2016-12-27,PM,V
-12,Brojen Das,Wed 2016-12-28,AM,V
-12,Brojen Das,Wed 2016-12-28,PM,V
-15,Antonio Abertondo,Tue 2016-12-27,AM,V
-15,Antonio Abertondo,Tue 2016-12-27,PM,V
-15,Antonio Abertondo,Wed 2016-12-28,AM,V
-15,Antonio Abertondo,Wed 2016-12-28,PM,V
-6,Gertrude Ederle,Mon 2016-10-31,AM,V
-6,Gertrude Ederle,Mon 2016-10-31,PM,V
-6,Gertrude Ederle,Tue 2016-11-01,AM,V
-6,Gertrude Ederle,Tue 2016-11-01,PM,V
-6,Gertrude Ederle,Wed 2016-11-02,AM,V
-6,Gertrude Ederle,Wed 2016-11-02,PM,V
-6,Gertrude Ederle,Thu 2016-11-03,AM,V
-6,Gertrude Ederle,Thu 2016-11-03,PM,V
-6,Gertrude Ederle,Fri 2016-11-04,AM,V
-6,Gertrude Ederle,Fri 2016-11-04,PM,V
-10,Damian Piz  Beltran,Mon 2016-10-31,AM,V
-10,Damian Piz  Beltran,Mon 2016-10-31,PM,V
-10,Damian Piz  Beltran,Tue 2016-11-01,AM,V
-10,Damian Piz  Beltran,Tue 2016-11-01,PM,V
-10,Damian Piz  Beltran,Wed 2016-11-02,AM,V
-10,Damian Piz  Beltran,Wed 2016-11-02,PM,V
-10,Damian Piz  Beltran,Thu 2016-11-03,AM,V
-10,Damian Piz  Beltran,Thu 2016-11-03,PM,V
-10,Damian Piz  Beltran,Fri 2016-11-04,AM,V
-10,Damian Piz  Beltran,Fri 2016-11-04,PM,V
-18,Philippe Croizon,Mon 2016-10-31,AM,V
-18,Philippe Croizon,Mon 2016-10-31,PM,V
-18,Philippe Croizon,Tue 2016-11-01,AM,V
-18,Philippe Croizon,Tue 2016-11-01,PM,V
-18,Philippe Croizon,Wed 2016-11-02,AM,V
-18,Philippe Croizon,Wed 2016-11-02,PM,V
-18,Philippe Croizon,Thu 2016-11-03,AM,V
-18,Philippe Croizon,Thu 2016-11-03,PM,V
-18,Philippe Croizon,Fri 2016-11-04,AM,V
-18,Philippe Croizon,Fri 2016-11-04,PM,V
-20,Philip Rush,Mon 2016-10-31,AM,V
-20,Philip Rush,Mon 2016-10-31,PM,V
-20,Philip Rush,Tue 2016-11-01,AM,V
-20,Philip Rush,Tue 2016-11-01,PM,V
-20,Philip Rush,Wed 2016-11-02,AM,V
-20,Philip Rush,Wed 2016-11-02,PM,V
-20,Philip Rush,Thu 2016-11-03,AM,V
-20,Philip Rush,Thu 2016-11-03,PM,V
-20,Philip Rush,Fri 2016-11-04,AM,V
-20,Philip Rush,Fri 2016-11-04,PM,V
-1,Matthew Webb,Wed 2017-11-15,AM,T
-1,Matthew Webb,Wed 2017-11-15,PM,T
-2,Thomas William Burgess,Wed 2017-11-15,AM,T
-2,Thomas William Burgess,Wed 2017-11-15,PM,T
-3,Henry Sullivan,Wed 2017-11-15,AM,T
-3,Henry Sullivan,Wed 2017-11-15,PM,T
-4,Enrique Tirabocchi,Wed 2017-11-15,AM,T
-4,Enrique Tirabocchi,Wed 2017-11-15,PM,T
-9,Florence Chadwick,Wed 2017-11-15,AM,T
-9,Florence Chadwick,Wed 2017-11-15,PM,T
-10,Damian Piz  Beltran,Wed 2017-11-15,AM,T
-10,Damian Piz  Beltran,Wed 2017-11-15,PM,T
-11,Marilyn Bell,Wed 2017-11-15,AM,T
-11,Marilyn Bell,Wed 2017-11-15,PM,T
-13,Arati Saha,Wed 2017-11-15,AM,T
-13,Arati Saha,Wed 2017-11-15,PM,T
-14,Mihir Sen,Wed 2017-11-15,AM,T
-14,Mihir Sen,Wed 2017-11-15,PM,T
-18,Philippe Croizon,Wed 2017-11-15,AM,T
-18,Philippe Croizon,Wed 2017-11-15,PM,T
-20,Philip Rush,Wed 2017-11-15,AM,T
-20,Philip Rush,Wed 2017-11-15,PM,T
-23,Cynthia Nicholas,Wed 2017-11-15,AM,T
-23,Cynthia Nicholas,Wed 2017-11-15,PM,T
-23,Cynthia Nicholas,Mon 2016-10-31,AM,V
-23,Cynthia Nicholas,Mon 2016-10-31,PM,V
-23,Cynthia Nicholas,Tue 2016-11-01,AM,V
-23,Cynthia Nicholas,Tue 2016-11-01,PM,V
-23,Cynthia Nicholas,Wed 2016-11-02,AM,V
-23,Cynthia Nicholas,Wed 2016-11-02,PM,V
-23,Cynthia Nicholas,Thu 2016-11-03,AM,V
-23,Cynthia Nicholas,Thu 2016-11-03,PM,V
-17,John Maclean,Mon 2016-10-31,AM,V
-17,John Maclean,Mon 2016-10-31,PM,V
-17,John Maclean,Tue 2016-11-01,AM,V
-17,John Maclean,Tue 2016-11-01,PM,V
-17,John Maclean,Wed 2016-11-02,AM,V
-17,John Maclean,Wed 2016-11-02,PM,V
-5,Charles Toth,Mon 2017-02-06,AM,V
-8,Edward H. Temme,Mon 2017-02-06,PM,V
-8,Edward H. Temme,Tue 2017-02-07,AM,V
-8,Edward H. Temme,Tue 2017-02-07,PM,V
-8,Edward H. Temme,Wed 2017-02-08,AM,V
-8,Edward H. Temme,Wed 2017-02-08,PM,V
-8,Edward H. Temme,Thu 2017-02-09,AM,V
-8,Edward H. Temme,Thu 2017-02-09,PM,V
-8,Edward H. Temme,Fri 2017-02-10,AM,V
-8,Edward H. Temme,Fri 2017-02-10,PM,V
-8,Edward H. Temme,Mon 2017-02-13,AM,V
-8,Edward H. Temme,Mon 2017-02-13,PM,V
-8,Edward H. Temme,Tue 2017-02-14,AM,V
-8,Edward H. Temme,Tue 2017-02-14,PM,V
-8,Edward H. Temme,Wed 2017-02-15,AM,V
-8,Edward H. Temme,Wed 2017-02-15,PM,V
-8,Edward H. Temme,Thu 2017-02-16,AM,V
-8,Edward H. Temme,Thu 2017-02-16,PM,V
-8,Edward H. Temme,Fri 2017-02-17,AM,V
-8,Edward H. Temme,Fri 2017-02-17,PM,V
-1,Matthew Webb,Mon 2017-04-17,AM,V
-1,Matthew Webb,Mon 2017-04-17,PM,V
-1,Matthew Webb,Tue 2017-04-18,AM,V
-1,Matthew Webb,Tue 2017-04-18,PM,V
-1,Matthew Webb,Wed 2017-04-19,AM,V
-1,Matthew Webb,Wed 2017-04-19,PM,V
-1,Matthew Webb,Thu 2017-04-20,AM,V
-1,Matthew Webb,Thu 2017-04-20,PM,V
-1,Matthew Webb,Fri 2017-04-21,AM,V
-1,Matthew Webb,Fri 2017-04-21,PM,V
-13,Arati Saha,Mon 2016-12-26,AM,V
-13,Arati Saha,Mon 2016-12-26,PM,V
-13,Arati Saha,Tue 2016-12-27,AM,V
-13,Arati Saha,Tue 2016-12-27,PM,V
-13,Arati Saha,Wed 2016-12-28,AM,V
-13,Arati Saha,Wed 2016-12-28,PM,V
-14,Mihir Sen,Mon 2016-12-26,AM,V
-14,Mihir Sen,Mon 2016-12-26,PM,V
-14,Mihir Sen,Tue 2016-12-27,AM,V
-14,Mihir Sen,Tue 2016-12-27,PM,V
-14,Mihir Sen,Wed 2016-12-28,AM,V
-14,Mihir Sen,Wed 2016-12-28,PM,V
-15,Antonio Abertondo,Mon 2016-12-26,AM,V
-15,Antonio Abertondo,Mon 2016-12-26,PM,V
-15,Antonio Abertondo,Tue 2016-12-27,AM,V
-15,Antonio Abertondo,Tue 2016-12-27,PM,V
-15,Antonio Abertondo,Wed 2016-12-28,AM,V
-15,Antonio Abertondo,Wed 2016-12-28,PM,V
-16,Jon Erikson,Mon 2016-12-26,AM,V
-16,Jon Erikson,Mon 2016-12-26,PM,V
-16,Jon Erikson,Tue 2016-12-27,AM,V
-16,Jon Erikson,Tue 2016-12-27,PM,V
-16,Jon Erikson,Wed 2016-12-28,AM,V
-16,Jon Erikson,Wed 2016-12-28,PM,V
-17,John Maclean,Mon 2016-12-26,AM,V
-17,John Maclean,Mon 2016-12-26,PM,V
-17,John Maclean,Tue 2016-12-27,AM,V
-17,John Maclean,Tue 2016-12-27,PM,V
-17,John Maclean,Wed 2016-12-28,AM,V
-17,John Maclean,Wed 2016-12-28,PM,V
-17,John Maclean,Mon 2016-11-07,AM,T
-17,John Maclean,Mon 2016-11-07,PM,T
-21,Kevin Murphy,Mon 2016-11-07,AM,T
-21,Kevin Murphy,Mon 2016-11-07,PM,T
-22,Alison Streeter,Mon 2016-11-07,AM,T
-22,Alison Streeter,Mon 2016-11-07,PM,T
-4,Enrique Tirabocchi,Mon 2016-11-07,AM,T
-4,Enrique Tirabocchi,Mon 2016-11-07,PM,T
-11,Marilyn Bell,Mon 2016-10-31,AM,T
-11,Marilyn Bell,Mon 2016-10-31,PM,T
-11,Marilyn Bell,Tue 2016-11-01,AM,T
-11,Marilyn Bell,Tue 2016-11-01,PM,T
-11,Marilyn Bell,Wed 2016-11-02,AM,T
-11,Marilyn Bell,Wed 2016-11-02,PM,T
-11,Marilyn Bell,Thu 2016-11-03,AM,T
-11,Marilyn Bell,Thu 2016-11-03,PM,T
-11,Marilyn Bell,Fri 2016-11-04,AM,T
-11,Marilyn Bell,Fri 2016-11-04,PM,T
-11,Marilyn Bell,Mon 2016-11-07,AM,T
-11,Marilyn Bell,Mon 2016-11-07,PM,T
-11,Marilyn Bell,Tue 2016-11-08,AM,T
-11,Marilyn Bell,Tue 2016-11-08,PM,T
-11,Marilyn Bell,Wed 2016-11-09,AM,T
-11,Marilyn Bell,Wed 2016-11-09,PM,T
-11,Marilyn Bell,Thu 2016-11-10,AM,T
-11,Marilyn Bell,Thu 2016-11-10,PM,T
-11,Marilyn Bell,Fri 2016-11-11,AM,T
-11,Marilyn Bell,Fri 2016-11-11,PM,T
-11,Marilyn Bell,Mon 2016-11-14,AM,T
-11,Marilyn Bell,Mon 2016-11-14,PM,T
-11,Marilyn Bell,Tue 2016-11-15,AM,T
-11,Marilyn Bell,Tue 2016-11-15,PM,T
-11,Marilyn Bell,Wed 2016-11-16,AM,T
-11,Marilyn Bell,Wed 2016-11-16,PM,T
-11,Marilyn Bell,Thu 2016-11-17,AM,T
-11,Marilyn Bell,Thu 2016-11-17,PM,T
-11,Marilyn Bell,Fri 2016-11-18,AM,T
-11,Marilyn Bell,Fri 2016-11-18,PM,T
-11,Marilyn Bell,Mon 2016-11-21,AM,T
-11,Marilyn Bell,Mon 2016-11-21,PM,T
-11,Marilyn Bell,Tue 2016-11-22,AM,T
-11,Marilyn Bell,Tue 2016-11-22,PM,T
-11,Marilyn Bell,Wed 2016-11-23,AM,T
-11,Marilyn Bell,Wed 2016-11-23,PM,T
-11,Marilyn Bell,Thu 2016-11-24,AM,T
-11,Marilyn Bell,Thu 2016-11-24,PM,T
-11,Marilyn Bell,Fri 2016-11-25,AM,T
-11,Marilyn Bell,Fri 2016-11-25,PM,T
-11,Marilyn Bell,Mon 2016-11-28,AM,T
-11,Marilyn Bell,Mon 2016-11-28,PM,T
-11,Marilyn Bell,Tue 2016-11-29,AM,T
-11,Marilyn Bell,Tue 2016-11-29,PM,T
-11,Marilyn Bell,Wed 2016-11-30,AM,T
-11,Marilyn Bell,Wed 2016-11-30,PM,T
-11,Marilyn Bell,Thu 2016-12-01,AM,T
-11,Marilyn Bell,Thu 2016-12-01,PM,T
-11,Marilyn Bell,Fri 2016-12-02,AM,T
-11,Marilyn Bell,Fri 2016-12-02,PM,T
+id,userid,name,date,unit,value
+1,1,Matthew Webb,Thu 2016-12-29,AM,P
+2,1,Matthew Webb,Thu 2016-12-29,PM,P
+3,1,Matthew Webb,Fri 2016-12-30,AM,P
+4,1,Matthew Webb,Fri 2016-12-30,PM,P
+5,1,Matthew Webb,Thu 2017-01-05,AM,P
+6,1,Matthew Webb,Thu 2017-01-05,PM,P
+7,1,Matthew Webb,Fri 2017-04-07,AM,P
+8,1,Matthew Webb,Mon 2017-04-10,PM,P
+9,1,Matthew Webb,Mon 2017-04-10,AM,P
+10,1,Matthew Webb,Mon 2017-05-08,PM,P
+11,1,Matthew Webb,Mon 2017-05-08,AM,P
+12,1,Matthew Webb,Mon 2017-05-29,PM,P
+13,1,Matthew Webb,Mon 2017-05-29,AM,P
+14,1,Matthew Webb,Mon 2017-09-04,PM,P
+15,1,Matthew Webb,Mon 2017-09-04,AM,P
+16,1,Matthew Webb,Fri 2017-12-29,PM,P
+17,1,Matthew Webb,Fri 2017-12-29,AM,P
+18,1,Matthew Webb,Mon 2018-01-01,PM,P
+19,1,Matthew Webb,Mon 2018-01-01,AM,P
+20,2,Thomas William Burgess,Thu 2016-12-29,AM,P
+21,2,Thomas William Burgess,Thu 2016-12-29,PM,P
+22,2,Thomas William Burgess,Fri 2016-12-30,AM,P
+23,2,Thomas William Burgess,Fri 2016-12-30,PM,P
+24,2,Thomas William Burgess,Thu 2017-01-05,AM,P
+25,2,Thomas William Burgess,Thu 2017-01-05,PM,P
+26,2,Thomas William Burgess,Fri 2017-04-07,AM,P
+27,2,Thomas William Burgess,Mon 2017-04-10,PM,P
+28,2,Thomas William Burgess,Mon 2017-04-10,AM,P
+29,2,Thomas William Burgess,Mon 2017-05-08,PM,P
+30,2,Thomas William Burgess,Mon 2017-05-08,AM,P
+31,2,Thomas William Burgess,Mon 2017-05-29,PM,P
+32,2,Thomas William Burgess,Mon 2017-05-29,AM,P
+33,2,Thomas William Burgess,Mon 2017-09-04,PM,P
+34,2,Thomas William Burgess,Mon 2017-09-04,AM,P
+35,2,Thomas William Burgess,Fri 2017-12-29,PM,P
+36,2,Thomas William Burgess,Fri 2017-12-29,AM,P
+37,2,Thomas William Burgess,Mon 2018-01-01,PM,P
+38,2,Thomas William Burgess,Mon 2018-01-01,AM,P
+39,3,Henry Sullivan,Thu 2016-12-29,AM,P
+40,3,Henry Sullivan,Thu 2016-12-29,PM,P
+41,3,Henry Sullivan,Fri 2016-12-30,AM,P
+42,3,Henry Sullivan,Fri 2016-12-30,PM,P
+43,3,Henry Sullivan,Thu 2017-01-05,AM,P
+44,3,Henry Sullivan,Thu 2017-01-05,PM,P
+45,3,Henry Sullivan,Fri 2017-04-07,AM,P
+46,3,Henry Sullivan,Mon 2017-04-10,PM,P
+47,3,Henry Sullivan,Mon 2017-04-10,AM,P
+48,3,Henry Sullivan,Mon 2017-05-08,PM,P
+49,3,Henry Sullivan,Mon 2017-05-08,AM,P
+50,3,Henry Sullivan,Mon 2017-05-29,PM,P
+51,3,Henry Sullivan,Mon 2017-05-29,AM,P
+52,3,Henry Sullivan,Mon 2017-09-04,PM,P
+53,3,Henry Sullivan,Mon 2017-09-04,AM,P
+54,3,Henry Sullivan,Fri 2017-12-29,PM,P
+55,3,Henry Sullivan,Fri 2017-12-29,AM,P
+56,3,Henry Sullivan,Mon 2018-01-01,PM,P
+57,3,Henry Sullivan,Mon 2018-01-01,AM,P
+58,4,Enrique Tirabocchi,Thu 2016-12-29,AM,P
+59,4,Enrique Tirabocchi,Thu 2016-12-29,PM,P
+60,4,Enrique Tirabocchi,Fri 2016-12-30,AM,P
+61,4,Enrique Tirabocchi,Fri 2016-12-30,PM,P
+62,4,Enrique Tirabocchi,Thu 2017-01-05,AM,P
+63,4,Enrique Tirabocchi,Thu 2017-01-05,PM,P
+64,4,Enrique Tirabocchi,Fri 2017-04-07,AM,P
+65,4,Enrique Tirabocchi,Mon 2017-04-10,PM,P
+66,4,Enrique Tirabocchi,Mon 2017-04-10,AM,P
+67,4,Enrique Tirabocchi,Mon 2017-05-08,PM,P
+68,4,Enrique Tirabocchi,Mon 2017-05-08,AM,P
+69,4,Enrique Tirabocchi,Mon 2017-05-29,PM,P
+70,4,Enrique Tirabocchi,Mon 2017-05-29,AM,P
+71,4,Enrique Tirabocchi,Mon 2017-09-04,PM,P
+72,4,Enrique Tirabocchi,Mon 2017-09-04,AM,P
+73,4,Enrique Tirabocchi,Fri 2017-12-29,PM,P
+74,4,Enrique Tirabocchi,Fri 2017-12-29,AM,P
+75,4,Enrique Tirabocchi,Mon 2018-01-01,PM,P
+76,4,Enrique Tirabocchi,Mon 2018-01-01,AM,P
+77,5,Charles Toth,Thu 2016-12-29,AM,P
+78,5,Charles Toth,Thu 2016-12-29,PM,P
+79,5,Charles Toth,Fri 2016-12-30,AM,P
+80,5,Charles Toth,Fri 2016-12-30,PM,P
+81,5,Charles Toth,Thu 2017-01-05,AM,P
+82,5,Charles Toth,Thu 2017-01-05,PM,P
+83,5,Charles Toth,Fri 2017-04-07,AM,P
+84,5,Charles Toth,Mon 2017-04-10,PM,P
+85,5,Charles Toth,Mon 2017-04-10,AM,P
+86,5,Charles Toth,Mon 2017-05-08,PM,P
+87,5,Charles Toth,Mon 2017-05-08,AM,P
+88,5,Charles Toth,Mon 2017-05-29,PM,P
+89,5,Charles Toth,Mon 2017-05-29,AM,P
+90,5,Charles Toth,Mon 2017-09-04,PM,P
+91,5,Charles Toth,Mon 2017-09-04,AM,P
+92,5,Charles Toth,Fri 2017-12-29,PM,P
+93,5,Charles Toth,Fri 2017-12-29,AM,P
+94,5,Charles Toth,Mon 2018-01-01,PM,P
+95,5,Charles Toth,Mon 2018-01-01,AM,P
+96,6,Gertrude Ederle,Thu 2016-12-29,AM,P
+97,6,Gertrude Ederle,Thu 2016-12-29,PM,P
+98,6,Gertrude Ederle,Fri 2016-12-30,AM,P
+99,6,Gertrude Ederle,Fri 2016-12-30,PM,P
+100,6,Gertrude Ederle,Thu 2017-01-05,AM,P
+101,6,Gertrude Ederle,Thu 2017-01-05,PM,P
+102,6,Gertrude Ederle,Fri 2017-04-07,AM,P
+103,6,Gertrude Ederle,Mon 2017-04-10,PM,P
+104,6,Gertrude Ederle,Mon 2017-04-10,AM,P
+105,6,Gertrude Ederle,Mon 2017-05-08,PM,P
+106,6,Gertrude Ederle,Mon 2017-05-08,AM,P
+107,6,Gertrude Ederle,Mon 2017-05-29,PM,P
+108,6,Gertrude Ederle,Mon 2017-05-29,AM,P
+109,6,Gertrude Ederle,Mon 2017-09-04,PM,P
+110,6,Gertrude Ederle,Mon 2017-09-04,AM,P
+111,6,Gertrude Ederle,Fri 2017-12-29,PM,P
+112,6,Gertrude Ederle,Fri 2017-12-29,AM,P
+113,6,Gertrude Ederle,Mon 2018-01-01,PM,P
+114,6,Gertrude Ederle,Mon 2018-01-01,AM,P
+115,7,Amelia Gade Corson,Thu 2016-12-29,AM,P
+116,7,Amelia Gade Corson,Thu 2016-12-29,PM,P
+117,7,Amelia Gade Corson,Fri 2016-12-30,AM,P
+118,7,Amelia Gade Corson,Fri 2016-12-30,PM,P
+119,7,Amelia Gade Corson,Thu 2017-01-05,AM,P
+120,7,Amelia Gade Corson,Thu 2017-01-05,PM,P
+121,7,Amelia Gade Corson,Fri 2017-04-07,AM,P
+122,7,Amelia Gade Corson,Mon 2017-04-10,PM,P
+123,7,Amelia Gade Corson,Mon 2017-04-10,AM,P
+124,7,Amelia Gade Corson,Mon 2017-05-08,PM,P
+125,7,Amelia Gade Corson,Mon 2017-05-08,AM,P
+126,7,Amelia Gade Corson,Mon 2017-05-29,PM,P
+127,7,Amelia Gade Corson,Mon 2017-05-29,AM,P
+128,7,Amelia Gade Corson,Mon 2017-09-04,PM,P
+129,7,Amelia Gade Corson,Mon 2017-09-04,AM,P
+130,7,Amelia Gade Corson,Fri 2017-12-29,PM,P
+131,7,Amelia Gade Corson,Fri 2017-12-29,AM,P
+132,7,Amelia Gade Corson,Mon 2018-01-01,PM,P
+133,7,Amelia Gade Corson,Mon 2018-01-01,AM,P
+134,8,Edward H. Temme,Thu 2016-12-29,AM,P
+135,8,Edward H. Temme,Thu 2016-12-29,PM,P
+136,8,Edward H. Temme,Fri 2016-12-30,AM,P
+137,8,Edward H. Temme,Fri 2016-12-30,PM,P
+138,8,Edward H. Temme,Thu 2017-01-05,AM,P
+139,8,Edward H. Temme,Thu 2017-01-05,PM,P
+140,8,Edward H. Temme,Fri 2017-04-07,AM,P
+141,8,Edward H. Temme,Mon 2017-04-10,PM,P
+142,8,Edward H. Temme,Mon 2017-04-10,AM,P
+143,8,Edward H. Temme,Mon 2017-05-08,PM,P
+144,8,Edward H. Temme,Mon 2017-05-08,AM,P
+145,8,Edward H. Temme,Mon 2017-05-29,PM,P
+146,8,Edward H. Temme,Mon 2017-05-29,AM,P
+147,8,Edward H. Temme,Mon 2017-09-04,PM,P
+148,8,Edward H. Temme,Mon 2017-09-04,AM,P
+149,8,Edward H. Temme,Fri 2017-12-29,PM,P
+150,8,Edward H. Temme,Fri 2017-12-29,AM,P
+151,8,Edward H. Temme,Mon 2018-01-01,PM,P
+152,8,Edward H. Temme,Mon 2018-01-01,AM,P
+153,9,Florence Chadwick,Thu 2016-12-29,AM,P
+154,9,Florence Chadwick,Thu 2016-12-29,PM,P
+155,9,Florence Chadwick,Fri 2016-12-30,AM,P
+156,9,Florence Chadwick,Fri 2016-12-30,PM,P
+157,9,Florence Chadwick,Thu 2017-01-05,AM,P
+158,9,Florence Chadwick,Thu 2017-01-05,PM,P
+159,9,Florence Chadwick,Fri 2017-04-07,AM,P
+160,9,Florence Chadwick,Mon 2017-04-10,PM,P
+161,9,Florence Chadwick,Mon 2017-04-10,AM,P
+162,9,Florence Chadwick,Mon 2017-05-08,PM,P
+163,9,Florence Chadwick,Mon 2017-05-08,AM,P
+164,9,Florence Chadwick,Mon 2017-05-29,PM,P
+165,9,Florence Chadwick,Mon 2017-05-29,AM,P
+166,9,Florence Chadwick,Mon 2017-09-04,PM,P
+167,9,Florence Chadwick,Mon 2017-09-04,AM,P
+168,9,Florence Chadwick,Fri 2017-12-29,PM,P
+169,9,Florence Chadwick,Fri 2017-12-29,AM,P
+170,9,Florence Chadwick,Mon 2018-01-01,PM,P
+171,9,Florence Chadwick,Mon 2018-01-01,AM,P
+172,10,Damian Piz  Beltran,Thu 2016-12-29,AM,P
+173,10,Damian Piz  Beltran,Thu 2016-12-29,PM,P
+174,10,Damian Piz  Beltran,Fri 2016-12-30,AM,P
+175,10,Damian Piz  Beltran,Fri 2016-12-30,PM,P
+176,10,Damian Piz  Beltran,Thu 2017-01-05,AM,P
+177,10,Damian Piz  Beltran,Thu 2017-01-05,PM,P
+178,10,Damian Piz  Beltran,Fri 2017-04-07,AM,P
+179,10,Damian Piz  Beltran,Mon 2017-04-10,PM,P
+180,10,Damian Piz  Beltran,Mon 2017-04-10,AM,P
+181,10,Damian Piz  Beltran,Mon 2017-05-08,PM,P
+182,10,Damian Piz  Beltran,Mon 2017-05-08,AM,P
+183,10,Damian Piz  Beltran,Mon 2017-05-29,PM,P
+184,10,Damian Piz  Beltran,Mon 2017-05-29,AM,P
+185,10,Damian Piz  Beltran,Mon 2017-09-04,PM,P
+186,10,Damian Piz  Beltran,Mon 2017-09-04,AM,P
+187,10,Damian Piz  Beltran,Fri 2017-12-29,PM,P
+188,10,Damian Piz  Beltran,Fri 2017-12-29,AM,P
+189,10,Damian Piz  Beltran,Mon 2018-01-01,PM,P
+190,10,Damian Piz  Beltran,Mon 2018-01-01,AM,P
+191,11,Marilyn Bell,Thu 2016-12-29,AM,P
+192,11,Marilyn Bell,Thu 2016-12-29,PM,P
+193,11,Marilyn Bell,Fri 2016-12-30,AM,P
+194,11,Marilyn Bell,Fri 2016-12-30,PM,P
+195,11,Marilyn Bell,Thu 2017-01-05,AM,P
+196,11,Marilyn Bell,Thu 2017-01-05,PM,P
+197,11,Marilyn Bell,Fri 2017-04-07,AM,P
+198,11,Marilyn Bell,Mon 2017-04-10,PM,P
+199,11,Marilyn Bell,Mon 2017-04-10,AM,P
+200,11,Marilyn Bell,Mon 2017-05-08,PM,P
+201,11,Marilyn Bell,Mon 2017-05-08,AM,P
+202,11,Marilyn Bell,Mon 2017-05-29,PM,P
+203,11,Marilyn Bell,Mon 2017-05-29,AM,P
+204,11,Marilyn Bell,Mon 2017-09-04,PM,P
+205,11,Marilyn Bell,Mon 2017-09-04,AM,P
+206,11,Marilyn Bell,Fri 2017-12-29,PM,P
+207,11,Marilyn Bell,Fri 2017-12-29,AM,P
+208,11,Marilyn Bell,Mon 2018-01-01,PM,P
+209,11,Marilyn Bell,Mon 2018-01-01,AM,P
+210,12,Brojen Das,Thu 2016-12-29,AM,P
+211,12,Brojen Das,Thu 2016-12-29,PM,P
+212,12,Brojen Das,Fri 2016-12-30,AM,P
+213,12,Brojen Das,Fri 2016-12-30,PM,P
+214,12,Brojen Das,Thu 2017-01-05,AM,P
+215,12,Brojen Das,Thu 2017-01-05,PM,P
+216,12,Brojen Das,Fri 2017-04-07,AM,P
+217,12,Brojen Das,Mon 2017-04-10,PM,P
+218,12,Brojen Das,Mon 2017-04-10,AM,P
+219,12,Brojen Das,Mon 2017-05-08,PM,P
+220,12,Brojen Das,Mon 2017-05-08,AM,P
+221,12,Brojen Das,Mon 2017-05-29,PM,P
+222,12,Brojen Das,Mon 2017-05-29,AM,P
+223,12,Brojen Das,Mon 2017-09-04,PM,P
+224,12,Brojen Das,Mon 2017-09-04,AM,P
+225,12,Brojen Das,Fri 2017-12-29,PM,P
+226,12,Brojen Das,Fri 2017-12-29,AM,P
+227,12,Brojen Das,Mon 2018-01-01,PM,P
+228,12,Brojen Das,Mon 2018-01-01,AM,P
+229,13,Arati Saha,Thu 2016-12-29,AM,P
+230,13,Arati Saha,Thu 2016-12-29,PM,P
+231,13,Arati Saha,Fri 2016-12-30,AM,P
+232,13,Arati Saha,Fri 2016-12-30,PM,P
+233,13,Arati Saha,Thu 2017-01-05,AM,P
+234,13,Arati Saha,Thu 2017-01-05,PM,P
+235,13,Arati Saha,Fri 2017-04-07,AM,P
+236,13,Arati Saha,Mon 2017-04-10,PM,P
+237,13,Arati Saha,Mon 2017-04-10,AM,P
+238,13,Arati Saha,Mon 2017-05-08,PM,P
+239,13,Arati Saha,Mon 2017-05-08,AM,P
+240,13,Arati Saha,Mon 2017-05-29,PM,P
+241,13,Arati Saha,Mon 2017-05-29,AM,P
+242,13,Arati Saha,Mon 2017-09-04,PM,P
+243,13,Arati Saha,Mon 2017-09-04,AM,P
+244,13,Arati Saha,Fri 2017-12-29,PM,P
+245,13,Arati Saha,Fri 2017-12-29,AM,P
+246,13,Arati Saha,Mon 2018-01-01,PM,P
+247,13,Arati Saha,Mon 2018-01-01,AM,P
+248,14,Mihir Sen,Thu 2016-12-29,AM,P
+249,14,Mihir Sen,Thu 2016-12-29,PM,P
+250,14,Mihir Sen,Fri 2016-12-30,AM,P
+251,14,Mihir Sen,Fri 2016-12-30,PM,P
+252,14,Mihir Sen,Thu 2017-01-05,AM,P
+253,14,Mihir Sen,Thu 2017-01-05,PM,P
+254,14,Mihir Sen,Fri 2017-04-07,AM,P
+255,14,Mihir Sen,Mon 2017-04-10,PM,P
+256,14,Mihir Sen,Mon 2017-04-10,AM,P
+257,14,Mihir Sen,Mon 2017-05-08,PM,P
+258,14,Mihir Sen,Mon 2017-05-08,AM,P
+259,14,Mihir Sen,Mon 2017-05-29,PM,P
+260,14,Mihir Sen,Mon 2017-05-29,AM,P
+261,14,Mihir Sen,Mon 2017-09-04,PM,P
+262,14,Mihir Sen,Mon 2017-09-04,AM,P
+263,14,Mihir Sen,Fri 2017-12-29,PM,P
+264,14,Mihir Sen,Fri 2017-12-29,AM,P
+265,14,Mihir Sen,Mon 2018-01-01,PM,P
+266,14,Mihir Sen,Mon 2018-01-01,AM,P
+267,15,Antonio Abertondo,Thu 2016-12-29,AM,P
+268,15,Antonio Abertondo,Thu 2016-12-29,PM,P
+269,15,Antonio Abertondo,Fri 2016-12-30,AM,P
+270,15,Antonio Abertondo,Fri 2016-12-30,PM,P
+271,15,Antonio Abertondo,Thu 2017-01-05,AM,P
+272,15,Antonio Abertondo,Thu 2017-01-05,PM,P
+273,15,Antonio Abertondo,Fri 2017-04-07,AM,P
+274,15,Antonio Abertondo,Mon 2017-04-10,PM,P
+275,15,Antonio Abertondo,Mon 2017-04-10,AM,P
+276,15,Antonio Abertondo,Mon 2017-05-08,PM,P
+277,15,Antonio Abertondo,Mon 2017-05-08,AM,P
+278,15,Antonio Abertondo,Mon 2017-05-29,PM,P
+279,15,Antonio Abertondo,Mon 2017-05-29,AM,P
+280,15,Antonio Abertondo,Mon 2017-09-04,PM,P
+281,15,Antonio Abertondo,Mon 2017-09-04,AM,P
+282,15,Antonio Abertondo,Fri 2017-12-29,PM,P
+283,15,Antonio Abertondo,Fri 2017-12-29,AM,P
+284,15,Antonio Abertondo,Mon 2018-01-01,PM,P
+285,15,Antonio Abertondo,Mon 2018-01-01,AM,P
+286,16,Jon Erikson,Thu 2016-12-29,AM,P
+287,16,Jon Erikson,Thu 2016-12-29,PM,P
+288,16,Jon Erikson,Fri 2016-12-30,AM,P
+289,16,Jon Erikson,Fri 2016-12-30,PM,P
+290,16,Jon Erikson,Thu 2017-01-05,AM,P
+291,16,Jon Erikson,Thu 2017-01-05,PM,P
+292,16,Jon Erikson,Fri 2017-04-07,AM,P
+293,16,Jon Erikson,Mon 2017-04-10,PM,P
+294,16,Jon Erikson,Mon 2017-04-10,AM,P
+295,16,Jon Erikson,Mon 2017-05-08,PM,P
+296,16,Jon Erikson,Mon 2017-05-08,AM,P
+297,16,Jon Erikson,Mon 2017-05-29,PM,P
+298,16,Jon Erikson,Mon 2017-05-29,AM,P
+299,16,Jon Erikson,Mon 2017-09-04,PM,P
+300,16,Jon Erikson,Mon 2017-09-04,AM,P
+301,16,Jon Erikson,Fri 2017-12-29,PM,P
+302,16,Jon Erikson,Fri 2017-12-29,AM,P
+303,16,Jon Erikson,Mon 2018-01-01,PM,P
+304,16,Jon Erikson,Mon 2018-01-01,AM,P
+305,17,John Maclean,Thu 2016-12-29,AM,P
+306,17,John Maclean,Thu 2016-12-29,PM,P
+307,17,John Maclean,Fri 2016-12-30,AM,P
+308,17,John Maclean,Fri 2016-12-30,PM,P
+309,17,John Maclean,Thu 2017-01-05,AM,P
+310,17,John Maclean,Thu 2017-01-05,PM,P
+311,17,John Maclean,Fri 2017-04-07,AM,P
+312,17,John Maclean,Mon 2017-04-10,PM,P
+313,17,John Maclean,Mon 2017-04-10,AM,P
+314,17,John Maclean,Mon 2017-05-08,PM,P
+315,17,John Maclean,Mon 2017-05-08,AM,P
+316,17,John Maclean,Mon 2017-05-29,PM,P
+317,17,John Maclean,Mon 2017-05-29,AM,P
+318,17,John Maclean,Mon 2017-09-04,PM,P
+319,17,John Maclean,Mon 2017-09-04,AM,P
+320,17,John Maclean,Fri 2017-12-29,PM,P
+321,17,John Maclean,Fri 2017-12-29,AM,P
+322,17,John Maclean,Mon 2018-01-01,PM,P
+323,17,John Maclean,Mon 2018-01-01,AM,P
+324,18,Philippe Croizon,Thu 2016-12-29,AM,P
+325,18,Philippe Croizon,Thu 2016-12-29,PM,P
+326,18,Philippe Croizon,Fri 2016-12-30,AM,P
+327,18,Philippe Croizon,Fri 2016-12-30,PM,P
+328,18,Philippe Croizon,Thu 2017-01-05,AM,P
+329,18,Philippe Croizon,Thu 2017-01-05,PM,P
+330,18,Philippe Croizon,Fri 2017-04-07,AM,P
+331,18,Philippe Croizon,Mon 2017-04-10,PM,P
+332,18,Philippe Croizon,Mon 2017-04-10,AM,P
+333,18,Philippe Croizon,Mon 2017-05-08,PM,P
+334,18,Philippe Croizon,Mon 2017-05-08,AM,P
+335,18,Philippe Croizon,Mon 2017-05-29,PM,P
+336,18,Philippe Croizon,Mon 2017-05-29,AM,P
+337,18,Philippe Croizon,Mon 2017-09-04,PM,P
+338,18,Philippe Croizon,Mon 2017-09-04,AM,P
+339,18,Philippe Croizon,Fri 2017-12-29,PM,P
+340,18,Philippe Croizon,Fri 2017-12-29,AM,P
+341,18,Philippe Croizon,Mon 2018-01-01,PM,P
+342,18,Philippe Croizon,Mon 2018-01-01,AM,P
+343,19,Trent Grimsey,Thu 2016-12-29,AM,P
+344,19,Trent Grimsey,Thu 2016-12-29,PM,P
+345,19,Trent Grimsey,Fri 2016-12-30,AM,P
+346,19,Trent Grimsey,Fri 2016-12-30,PM,P
+347,19,Trent Grimsey,Thu 2017-01-05,AM,P
+348,19,Trent Grimsey,Thu 2017-01-05,PM,P
+349,19,Trent Grimsey,Fri 2017-04-07,AM,P
+350,19,Trent Grimsey,Mon 2017-04-10,PM,P
+351,19,Trent Grimsey,Mon 2017-04-10,AM,P
+352,19,Trent Grimsey,Mon 2017-05-08,PM,P
+353,19,Trent Grimsey,Mon 2017-05-08,AM,P
+354,19,Trent Grimsey,Mon 2017-05-29,PM,P
+355,19,Trent Grimsey,Mon 2017-05-29,AM,P
+356,19,Trent Grimsey,Mon 2017-09-04,PM,P
+357,19,Trent Grimsey,Mon 2017-09-04,AM,P
+358,19,Trent Grimsey,Fri 2017-12-29,PM,P
+359,19,Trent Grimsey,Fri 2017-12-29,AM,P
+360,19,Trent Grimsey,Mon 2018-01-01,PM,P
+361,19,Trent Grimsey,Mon 2018-01-01,AM,P
+362,20,Philip Rush,Thu 2016-12-29,AM,P
+363,20,Philip Rush,Thu 2016-12-29,PM,P
+364,20,Philip Rush,Fri 2016-12-30,AM,P
+365,20,Philip Rush,Fri 2016-12-30,PM,P
+366,20,Philip Rush,Thu 2017-01-05,AM,P
+367,20,Philip Rush,Thu 2017-01-05,PM,P
+368,20,Philip Rush,Fri 2017-04-07,AM,P
+369,20,Philip Rush,Mon 2017-04-10,PM,P
+370,20,Philip Rush,Mon 2017-04-10,AM,P
+371,20,Philip Rush,Mon 2017-05-08,PM,P
+372,20,Philip Rush,Mon 2017-05-08,AM,P
+373,20,Philip Rush,Mon 2017-05-29,PM,P
+374,20,Philip Rush,Mon 2017-05-29,AM,P
+375,20,Philip Rush,Mon 2017-09-04,PM,P
+376,20,Philip Rush,Mon 2017-09-04,AM,P
+377,20,Philip Rush,Fri 2017-12-29,PM,P
+378,20,Philip Rush,Fri 2017-12-29,AM,P
+379,20,Philip Rush,Mon 2018-01-01,PM,P
+380,20,Philip Rush,Mon 2018-01-01,AM,P
+381,21,Kevin Murphy,Thu 2016-12-29,AM,P
+382,21,Kevin Murphy,Thu 2016-12-29,PM,P
+383,21,Kevin Murphy,Fri 2016-12-30,AM,P
+384,21,Kevin Murphy,Fri 2016-12-30,PM,P
+385,21,Kevin Murphy,Thu 2017-01-05,AM,P
+386,21,Kevin Murphy,Thu 2017-01-05,PM,P
+387,21,Kevin Murphy,Fri 2017-04-07,AM,P
+388,21,Kevin Murphy,Mon 2017-04-10,PM,P
+389,21,Kevin Murphy,Mon 2017-04-10,AM,P
+390,21,Kevin Murphy,Mon 2017-05-08,PM,P
+391,21,Kevin Murphy,Mon 2017-05-08,AM,P
+392,21,Kevin Murphy,Mon 2017-05-29,PM,P
+393,21,Kevin Murphy,Mon 2017-05-29,AM,P
+394,21,Kevin Murphy,Mon 2017-09-04,PM,P
+395,21,Kevin Murphy,Mon 2017-09-04,AM,P
+396,21,Kevin Murphy,Fri 2017-12-29,PM,P
+397,21,Kevin Murphy,Fri 2017-12-29,AM,P
+398,21,Kevin Murphy,Mon 2018-01-01,PM,P
+399,21,Kevin Murphy,Mon 2018-01-01,AM,P
+400,22,Alison Streeter,Thu 2016-12-29,AM,P
+401,22,Alison Streeter,Thu 2016-12-29,PM,P
+402,22,Alison Streeter,Fri 2016-12-30,AM,P
+403,22,Alison Streeter,Fri 2016-12-30,PM,P
+404,22,Alison Streeter,Thu 2017-01-05,AM,P
+405,22,Alison Streeter,Thu 2017-01-05,PM,P
+406,22,Alison Streeter,Fri 2017-04-07,AM,P
+407,22,Alison Streeter,Mon 2017-04-10,PM,P
+408,22,Alison Streeter,Mon 2017-04-10,AM,P
+409,22,Alison Streeter,Mon 2017-05-08,PM,P
+410,22,Alison Streeter,Mon 2017-05-08,AM,P
+411,22,Alison Streeter,Mon 2017-05-29,PM,P
+412,22,Alison Streeter,Mon 2017-05-29,AM,P
+413,22,Alison Streeter,Mon 2017-09-04,PM,P
+414,22,Alison Streeter,Mon 2017-09-04,AM,P
+415,22,Alison Streeter,Fri 2017-12-29,PM,P
+416,22,Alison Streeter,Fri 2017-12-29,AM,P
+417,22,Alison Streeter,Mon 2018-01-01,PM,P
+418,22,Alison Streeter,Mon 2018-01-01,AM,P
+419,23,Cynthia Nicholas,Thu 2016-12-29,AM,P
+420,23,Cynthia Nicholas,Thu 2016-12-29,PM,P
+421,23,Cynthia Nicholas,Fri 2016-12-30,AM,P
+422,23,Cynthia Nicholas,Fri 2016-12-30,PM,P
+423,23,Cynthia Nicholas,Thu 2017-01-05,AM,P
+424,23,Cynthia Nicholas,Thu 2017-01-05,PM,P
+425,23,Cynthia Nicholas,Fri 2017-04-07,AM,P
+426,23,Cynthia Nicholas,Mon 2017-04-10,PM,P
+427,23,Cynthia Nicholas,Mon 2017-04-10,AM,P
+428,23,Cynthia Nicholas,Mon 2017-05-08,PM,P
+429,23,Cynthia Nicholas,Mon 2017-05-08,AM,P
+430,23,Cynthia Nicholas,Mon 2017-05-29,PM,P
+431,23,Cynthia Nicholas,Mon 2017-05-29,AM,P
+432,23,Cynthia Nicholas,Mon 2017-09-04,PM,P
+433,23,Cynthia Nicholas,Mon 2017-09-04,AM,P
+434,23,Cynthia Nicholas,Fri 2017-12-29,PM,P
+435,23,Cynthia Nicholas,Fri 2017-12-29,AM,P
+436,23,Cynthia Nicholas,Mon 2018-01-01,PM,P
+437,23,Cynthia Nicholas,Mon 2018-01-01,AM,P
+438,1,Matthew Webb,Mon 2016-10-10,AM,V
+439,1,Matthew Webb,Mon 2016-10-10,PM,V
+440,1,Matthew Webb,Tue 2016-10-11,AM,V
+441,1,Matthew Webb,Tue 2016-10-11,PM,V
+442,1,Matthew Webb,Wed 2016-10-12,AM,V
+443,1,Matthew Webb,Wed 2016-10-12,PM,V
+444,1,Matthew Webb,Thu 2016-10-13,AM,V
+445,1,Matthew Webb,Thu 2016-10-13,PM,V
+446,1,Matthew Webb,Fri 2016-10-14,AM,V
+447,1,Matthew Webb,Fri 2016-10-14,PM,V
+448,1,Matthew Webb,Thu 2016-11-24,AM,V
+449,1,Matthew Webb,Thu 2016-11-24,PM,V
+450,1,Matthew Webb,Fri 2016-11-25,AM,V
+451,1,Matthew Webb,Fri 2016-11-25,PM,V
+452,1,Matthew Webb,Mon 2016-10-24,AM,T
+453,2,Thomas William Burgess,Mon 2016-12-26,AM,V
+454,2,Thomas William Burgess,Mon 2016-12-26,PM,V
+455,2,Thomas William Burgess,Tue 2016-12-27,AM,V
+456,2,Thomas William Burgess,Tue 2016-12-27,PM,V
+457,2,Thomas William Burgess,Wed 2016-12-28,AM,V
+458,2,Thomas William Burgess,Wed 2016-12-28,PM,V
+459,3,Henry Sullivan,Mon 2016-12-26,AM,V
+460,3,Henry Sullivan,Mon 2016-12-26,PM,V
+461,3,Henry Sullivan,Tue 2016-12-27,AM,V
+462,3,Henry Sullivan,Tue 2016-12-27,PM,V
+463,3,Henry Sullivan,Wed 2016-12-28,AM,V
+464,3,Henry Sullivan,Wed 2016-12-28,PM,V
+465,4,Enrique Tirabocchi,Mon 2016-12-26,AM,V
+466,4,Enrique Tirabocchi,Mon 2016-12-26,PM,V
+467,4,Enrique Tirabocchi,Tue 2016-12-27,AM,V
+468,4,Enrique Tirabocchi,Tue 2016-12-27,PM,V
+469,4,Enrique Tirabocchi,Wed 2016-12-28,AM,V
+470,4,Enrique Tirabocchi,Wed 2016-12-28,PM,V
+471,5,Charles Toth,Tue 2016-12-27,AM,V
+472,5,Charles Toth,Tue 2016-12-27,PM,V
+473,5,Charles Toth,Wed 2016-12-28,AM,V
+474,5,Charles Toth,Wed 2016-12-28,PM,V
+475,12,Brojen Das,Tue 2016-12-27,AM,V
+476,12,Brojen Das,Tue 2016-12-27,PM,V
+477,12,Brojen Das,Wed 2016-12-28,AM,V
+478,12,Brojen Das,Wed 2016-12-28,PM,V
+479,15,Antonio Abertondo,Tue 2016-12-27,AM,V
+480,15,Antonio Abertondo,Tue 2016-12-27,PM,V
+481,15,Antonio Abertondo,Wed 2016-12-28,AM,V
+482,15,Antonio Abertondo,Wed 2016-12-28,PM,V
+483,6,Gertrude Ederle,Mon 2016-10-31,AM,V
+484,6,Gertrude Ederle,Mon 2016-10-31,PM,V
+485,6,Gertrude Ederle,Tue 2016-11-01,AM,V
+486,6,Gertrude Ederle,Tue 2016-11-01,PM,V
+487,6,Gertrude Ederle,Wed 2016-11-02,AM,V
+488,6,Gertrude Ederle,Wed 2016-11-02,PM,V
+489,6,Gertrude Ederle,Thu 2016-11-03,AM,V
+490,6,Gertrude Ederle,Thu 2016-11-03,PM,V
+491,6,Gertrude Ederle,Fri 2016-11-04,AM,V
+492,6,Gertrude Ederle,Fri 2016-11-04,PM,V
+493,10,Damian Piz  Beltran,Mon 2016-10-31,AM,V
+494,10,Damian Piz  Beltran,Mon 2016-10-31,PM,V
+495,10,Damian Piz  Beltran,Tue 2016-11-01,AM,V
+496,10,Damian Piz  Beltran,Tue 2016-11-01,PM,V
+497,10,Damian Piz  Beltran,Wed 2016-11-02,AM,V
+498,10,Damian Piz  Beltran,Wed 2016-11-02,PM,V
+499,10,Damian Piz  Beltran,Thu 2016-11-03,AM,V
+500,10,Damian Piz  Beltran,Thu 2016-11-03,PM,V
+501,10,Damian Piz  Beltran,Fri 2016-11-04,AM,V
+502,10,Damian Piz  Beltran,Fri 2016-11-04,PM,V
+503,18,Philippe Croizon,Mon 2016-10-31,AM,V
+504,18,Philippe Croizon,Mon 2016-10-31,PM,V
+505,18,Philippe Croizon,Tue 2016-11-01,AM,V
+506,18,Philippe Croizon,Tue 2016-11-01,PM,V
+507,18,Philippe Croizon,Wed 2016-11-02,AM,V
+508,18,Philippe Croizon,Wed 2016-11-02,PM,V
+509,18,Philippe Croizon,Thu 2016-11-03,AM,V
+510,18,Philippe Croizon,Thu 2016-11-03,PM,V
+511,18,Philippe Croizon,Fri 2016-11-04,AM,V
+512,18,Philippe Croizon,Fri 2016-11-04,PM,V
+513,20,Philip Rush,Mon 2016-10-31,AM,V
+514,20,Philip Rush,Mon 2016-10-31,PM,V
+515,20,Philip Rush,Tue 2016-11-01,AM,V
+516,20,Philip Rush,Tue 2016-11-01,PM,V
+517,20,Philip Rush,Wed 2016-11-02,AM,V
+518,20,Philip Rush,Wed 2016-11-02,PM,V
+519,20,Philip Rush,Thu 2016-11-03,AM,V
+520,20,Philip Rush,Thu 2016-11-03,PM,V
+521,20,Philip Rush,Fri 2016-11-04,AM,V
+522,20,Philip Rush,Fri 2016-11-04,PM,V
+523,1,Matthew Webb,Wed 2017-11-15,AM,T
+524,1,Matthew Webb,Wed 2017-11-15,PM,T
+525,2,Thomas William Burgess,Wed 2017-11-15,AM,T
+526,2,Thomas William Burgess,Wed 2017-11-15,PM,T
+527,3,Henry Sullivan,Wed 2017-11-15,AM,T
+528,3,Henry Sullivan,Wed 2017-11-15,PM,T
+529,4,Enrique Tirabocchi,Wed 2017-11-15,AM,T
+530,4,Enrique Tirabocchi,Wed 2017-11-15,PM,T
+531,9,Florence Chadwick,Wed 2017-11-15,AM,T
+532,9,Florence Chadwick,Wed 2017-11-15,PM,T
+533,10,Damian Piz  Beltran,Wed 2017-11-15,AM,T
+534,10,Damian Piz  Beltran,Wed 2017-11-15,PM,T
+535,11,Marilyn Bell,Wed 2017-11-15,AM,T
+536,11,Marilyn Bell,Wed 2017-11-15,PM,T
+537,13,Arati Saha,Wed 2017-11-15,AM,T
+538,13,Arati Saha,Wed 2017-11-15,PM,T
+539,14,Mihir Sen,Wed 2017-11-15,AM,T
+540,14,Mihir Sen,Wed 2017-11-15,PM,T
+541,18,Philippe Croizon,Wed 2017-11-15,AM,T
+542,18,Philippe Croizon,Wed 2017-11-15,PM,T
+543,20,Philip Rush,Wed 2017-11-15,AM,T
+544,20,Philip Rush,Wed 2017-11-15,PM,T
+545,23,Cynthia Nicholas,Wed 2017-11-15,AM,T
+546,23,Cynthia Nicholas,Wed 2017-11-15,PM,T
+547,23,Cynthia Nicholas,Mon 2016-10-31,AM,V
+548,23,Cynthia Nicholas,Mon 2016-10-31,PM,V
+549,23,Cynthia Nicholas,Tue 2016-11-01,AM,V
+550,23,Cynthia Nicholas,Tue 2016-11-01,PM,V
+551,23,Cynthia Nicholas,Wed 2016-11-02,AM,V
+552,23,Cynthia Nicholas,Wed 2016-11-02,PM,V
+553,23,Cynthia Nicholas,Thu 2016-11-03,AM,V
+554,23,Cynthia Nicholas,Thu 2016-11-03,PM,V
+555,17,John Maclean,Mon 2016-10-31,AM,V
+556,17,John Maclean,Mon 2016-10-31,PM,V
+557,17,John Maclean,Tue 2016-11-01,AM,V
+558,17,John Maclean,Tue 2016-11-01,PM,V
+559,17,John Maclean,Wed 2016-11-02,AM,V
+560,17,John Maclean,Wed 2016-11-02,PM,V
+561,5,Charles Toth,Mon 2017-02-06,AM,V
+562,8,Edward H. Temme,Mon 2017-02-06,PM,V
+563,8,Edward H. Temme,Tue 2017-02-07,AM,V
+564,8,Edward H. Temme,Tue 2017-02-07,PM,V
+565,8,Edward H. Temme,Wed 2017-02-08,AM,V
+566,8,Edward H. Temme,Wed 2017-02-08,PM,V
+567,8,Edward H. Temme,Thu 2017-02-09,AM,V
+568,8,Edward H. Temme,Thu 2017-02-09,PM,V
+569,8,Edward H. Temme,Fri 2017-02-10,AM,V
+570,8,Edward H. Temme,Fri 2017-02-10,PM,V
+571,8,Edward H. Temme,Mon 2017-02-13,AM,V
+572,8,Edward H. Temme,Mon 2017-02-13,PM,V
+573,8,Edward H. Temme,Tue 2017-02-14,AM,V
+574,8,Edward H. Temme,Tue 2017-02-14,PM,V
+575,8,Edward H. Temme,Wed 2017-02-15,AM,V
+576,8,Edward H. Temme,Wed 2017-02-15,PM,V
+577,8,Edward H. Temme,Thu 2017-02-16,AM,V
+578,8,Edward H. Temme,Thu 2017-02-16,PM,V
+579,8,Edward H. Temme,Fri 2017-02-17,AM,V
+580,8,Edward H. Temme,Fri 2017-02-17,PM,V
+581,1,Matthew Webb,Mon 2017-04-17,AM,V
+582,1,Matthew Webb,Mon 2017-04-17,PM,V
+583,1,Matthew Webb,Tue 2017-04-18,AM,V
+584,1,Matthew Webb,Tue 2017-04-18,PM,V
+585,1,Matthew Webb,Wed 2017-04-19,AM,V
+586,1,Matthew Webb,Wed 2017-04-19,PM,V
+587,1,Matthew Webb,Thu 2017-04-20,AM,V
+588,1,Matthew Webb,Thu 2017-04-20,PM,V
+589,1,Matthew Webb,Fri 2017-04-21,AM,V
+590,1,Matthew Webb,Fri 2017-04-21,PM,V
+591,13,Arati Saha,Mon 2016-12-26,AM,V
+592,13,Arati Saha,Mon 2016-12-26,PM,V
+593,13,Arati Saha,Tue 2016-12-27,AM,V
+594,13,Arati Saha,Tue 2016-12-27,PM,V
+595,13,Arati Saha,Wed 2016-12-28,AM,V
+596,13,Arati Saha,Wed 2016-12-28,PM,V
+597,14,Mihir Sen,Mon 2016-12-26,AM,V
+598,14,Mihir Sen,Mon 2016-12-26,PM,V
+599,14,Mihir Sen,Tue 2016-12-27,AM,V
+600,14,Mihir Sen,Tue 2016-12-27,PM,V
+601,14,Mihir Sen,Wed 2016-12-28,AM,V
+602,14,Mihir Sen,Wed 2016-12-28,PM,V
+603,15,Antonio Abertondo,Mon 2016-12-26,AM,V
+604,15,Antonio Abertondo,Mon 2016-12-26,PM,V
+605,15,Antonio Abertondo,Tue 2016-12-27,AM,V
+606,15,Antonio Abertondo,Tue 2016-12-27,PM,V
+607,15,Antonio Abertondo,Wed 2016-12-28,AM,V
+608,15,Antonio Abertondo,Wed 2016-12-28,PM,V
+609,16,Jon Erikson,Mon 2016-12-26,AM,V
+610,16,Jon Erikson,Mon 2016-12-26,PM,V
+611,16,Jon Erikson,Tue 2016-12-27,AM,V
+612,16,Jon Erikson,Tue 2016-12-27,PM,V
+613,16,Jon Erikson,Wed 2016-12-28,AM,V
+614,16,Jon Erikson,Wed 2016-12-28,PM,V
+615,17,John Maclean,Mon 2016-12-26,AM,V
+616,17,John Maclean,Mon 2016-12-26,PM,V
+617,17,John Maclean,Tue 2016-12-27,AM,V
+618,17,John Maclean,Tue 2016-12-27,PM,V
+619,17,John Maclean,Wed 2016-12-28,AM,V
+620,17,John Maclean,Wed 2016-12-28,PM,V
+621,17,John Maclean,Mon 2016-11-07,AM,T
+622,17,John Maclean,Mon 2016-11-07,PM,T
+623,21,Kevin Murphy,Mon 2016-11-07,AM,T
+624,21,Kevin Murphy,Mon 2016-11-07,PM,T
+625,22,Alison Streeter,Mon 2016-11-07,AM,T
+626,22,Alison Streeter,Mon 2016-11-07,PM,T
+627,4,Enrique Tirabocchi,Mon 2016-11-07,AM,T
+628,4,Enrique Tirabocchi,Mon 2016-11-07,PM,T
+629,11,Marilyn Bell,Mon 2016-10-31,AM,T
+630,11,Marilyn Bell,Mon 2016-10-31,PM,T
+631,11,Marilyn Bell,Tue 2016-11-01,AM,T
+632,11,Marilyn Bell,Tue 2016-11-01,PM,T
+633,11,Marilyn Bell,Wed 2016-11-02,AM,T
+634,11,Marilyn Bell,Wed 2016-11-02,PM,T
+635,11,Marilyn Bell,Thu 2016-11-03,AM,T
+636,11,Marilyn Bell,Thu 2016-11-03,PM,T
+637,11,Marilyn Bell,Fri 2016-11-04,AM,T
+638,11,Marilyn Bell,Fri 2016-11-04,PM,T
+639,11,Marilyn Bell,Mon 2016-11-07,AM,T
+640,11,Marilyn Bell,Mon 2016-11-07,PM,T
+641,11,Marilyn Bell,Tue 2016-11-08,AM,T
+642,11,Marilyn Bell,Tue 2016-11-08,PM,T
+643,11,Marilyn Bell,Wed 2016-11-09,AM,T
+644,11,Marilyn Bell,Wed 2016-11-09,PM,T
+645,11,Marilyn Bell,Thu 2016-11-10,AM,T
+646,11,Marilyn Bell,Thu 2016-11-10,PM,T
+647,11,Marilyn Bell,Fri 2016-11-11,AM,T
+648,11,Marilyn Bell,Fri 2016-11-11,PM,T
+649,11,Marilyn Bell,Mon 2016-11-14,AM,T
+650,11,Marilyn Bell,Mon 2016-11-14,PM,T
+651,11,Marilyn Bell,Tue 2016-11-15,AM,T
+652,11,Marilyn Bell,Tue 2016-11-15,PM,T
+653,11,Marilyn Bell,Wed 2016-11-16,AM,T
+654,11,Marilyn Bell,Wed 2016-11-16,PM,T
+655,11,Marilyn Bell,Thu 2016-11-17,AM,T
+656,11,Marilyn Bell,Thu 2016-11-17,PM,T
+657,11,Marilyn Bell,Fri 2016-11-18,AM,T
+658,11,Marilyn Bell,Fri 2016-11-18,PM,T
+659,11,Marilyn Bell,Mon 2016-11-21,AM,T
+660,11,Marilyn Bell,Mon 2016-11-21,PM,T
+661,11,Marilyn Bell,Tue 2016-11-22,AM,T
+662,11,Marilyn Bell,Tue 2016-11-22,PM,T
+663,11,Marilyn Bell,Wed 2016-11-23,AM,T
+664,11,Marilyn Bell,Wed 2016-11-23,PM,T
+665,11,Marilyn Bell,Thu 2016-11-24,AM,T
+666,11,Marilyn Bell,Thu 2016-11-24,PM,T
+667,11,Marilyn Bell,Fri 2016-11-25,AM,T
+668,11,Marilyn Bell,Fri 2016-11-25,PM,T
+669,11,Marilyn Bell,Mon 2016-11-28,AM,T
+670,11,Marilyn Bell,Mon 2016-11-28,PM,T
+671,11,Marilyn Bell,Tue 2016-11-29,AM,T
+672,11,Marilyn Bell,Tue 2016-11-29,PM,T
+673,11,Marilyn Bell,Wed 2016-11-30,AM,T
+674,11,Marilyn Bell,Wed 2016-11-30,PM,T
+675,11,Marilyn Bell,Thu 2016-12-01,AM,T
+676,11,Marilyn Bell,Thu 2016-12-01,PM,T
+677,11,Marilyn Bell,Fri 2016-12-02,AM,T
+678,11,Marilyn Bell,Fri 2016-12-02,PM,T
