@@ -9,6 +9,8 @@ To run the project simply clone this repo then:
 * `npm install`
 * `npm start`
 
+To load data, place `sampledata.csv` into the public folder (the `/docs/` directory of this repo has an example). 
+
 ## Project Status
 This project is considered to be a rapid prototype.
 
@@ -18,7 +20,7 @@ Efforts have been made to lay a well composed architecture to allow this project
 * The user is presented with a calendar view of absences by team member for the next 31 days 
 * The user can progress forwards or backwards in time by 31 day increments
 * Sample data is currently read in from CSV
-** This should be easily replaceable with a genuine API - the browser console details the API requests and state changes
+* Sample can be quickly swapped with a genuine API - the browser console details the API requests and state changes
 
 ##  Limitations and Known Issues
 Due to time constraints multiple known issues are still apparent within this rapid prototype:
