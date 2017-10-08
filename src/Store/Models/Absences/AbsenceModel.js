@@ -1,5 +1,5 @@
 import {getIsoDateFromString, getDateFromIsoDate} from '../../Helpers/DateHelpers';
-import {AbsenceTypes, getTypeReadableName} from './AbsenceTypes';
+import {AbsenceTypes, getReadableTypeName} from './AbsenceTypes';
 
 
 export class Absence{
@@ -10,7 +10,7 @@ export class Absence{
         this.timestamp = this.date.getTime();
         this.unit = unit;
         this.type = type || AbsenceTypes.PRESENT; //If the type is not specified we set the absence to being present as per the API data spec
-        this.typeName = getTypeReadableName(this.type);
+        this.typeName = getReadableTypeName(this.type);
     }
 }
 

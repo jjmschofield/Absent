@@ -5,7 +5,7 @@ export const AbsenceTypes = {
     PRESENT: null, //If the absence is of the PRESENT type it is not an absence! This can be used as an intermediary before deletion.
 };
 
-export function getTypeReadableName(type){
+export function getReadableTypeName(type){
 
     if(type === AbsenceTypes.PUBLIC_HOLIDAY){
         return "Public Holiday";
