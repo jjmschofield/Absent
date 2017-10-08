@@ -9,13 +9,25 @@ export class UserDayRow extends Component {
 
     renderUserRow() {
         return (
-            <tr key={this.props.user.id} className="user-days">
+            <tr key={this.props.user.id} className={this.getRowClassNames()}>
                 <td className="mdl-data-table__cell--non-numeric">
                     <label>{this.props.user.name}</label>
                 </td>
                 {this.getUserDayCells()}
             </tr>
         )
+    }
+
+    getRowClassNames(){
+        let classNames = [];
+        classNames.push("user-days");
+        console.log(this.props);
+
+        if(this.props.ownedByCurrentUser){
+            classNames.push("owned-by-current-user")
+        }
+
+        return classNames.join(" ");
     }
 
     getUserDayCells() {

@@ -15,6 +15,7 @@ export class TeamAbsenceCalendar extends Component {
                     <TeamAbsenceTableBody dates={this.props.dates}
                                           users={this.props.users}
                                           absences={this.props.absences}
+                                          currentUserId={this.props.currentUserId}
                     />
                 </table>
             )

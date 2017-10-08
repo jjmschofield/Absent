@@ -5,7 +5,8 @@ const mapStateToProps = (state) => {
     return {
         absences: state.absences,
         users: state.users,
-        dates: state.teamCalendar.visibleDates
+        dates: state.teamCalendar.visibleDates,
+        currentUserId: state.auth.currentUserId
     }
 };
 

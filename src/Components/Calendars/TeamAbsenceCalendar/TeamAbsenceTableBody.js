@@ -22,6 +22,7 @@ export class TeamAbsenceTableBody extends Component {
                     <UserDayRow
                         key={user.id}
                         user={user}
+                        ownedByCurrentUser={user.id === this.props.currentUserId}
                         dates={this.props.dates}
                         absences={this.getAbsencesForUserByTimestamp(user)}
                     />
