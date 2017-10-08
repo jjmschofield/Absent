@@ -39,6 +39,7 @@ export function addAbsence(newAbsence) {
 }
 
 function giveAbsenceMockAbsenceId(absence){ //TODO - this should not be used in production - it is a work around for not having an API providing a unique key for new absences
-    absence.id = Object.keys(Store.getState().absences.absencesById).length + 1;
+    absence.id = Object.keys(Store.getState().absences.absencesById).length * new Date().getTime();
+    absence.id = absence.id.toString();
     return absence;
 }
