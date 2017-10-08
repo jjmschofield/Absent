@@ -1,44 +1,60 @@
 import React, {Component} from 'react';
 import {AbsenceTypes, getReadableTypeName} from '../../Store/Models/Absences/AbsenceTypes';
+import {RadioButton} from './RadioButton';
 import './AbsenceTypeSelector.css';
 
 export class AbsenceTypeSelector extends Component {
-    
+
+    constructor(props){
+        super(props);
+
+        this.state = {
+            selectedAbsenceType: AbsenceTypes.VACATION
+        }
+    }
+
     render() {
         return (
             <ul className="absence-type-selectors">
-                {this.renderAbsenceTypes()}
+                {this.renderAbsenceTypeOptions()}
             </ul>
         )
     }
 
-    renderAbsenceTypes(){
-
-        let absenceTypeListItems = [];
-        absenceTypeListItems.push(this.getAbsenceTypeListItem(AbsenceTypes.VACATION));
-        absenceTypeListItems.push(this.getAbsenceTypeListItem(AbsenceTypes.TRAINING));
-        absenceTypeListItems.push(this.getAbsenceTypeListItem(AbsenceTypes.PRESENT,"Remove"));
-
-        return absenceTypeListItems;
+    renderAbsenceTypeOptions(){
+        let absenceTypeOptions = [];
+        absenceTypeOptions.push(this.getAbsenceTypeOption(AbsenceTypes.VACATION));
+        absenceTypeOptions.push(this.getAbsenceTypeOption(AbsenceTypes.TRAINING));
+        absenceTypeOptions.push(this.getAbsenceTypeOption(AbsenceTypes.PRESENT,"Remove"));
+        return absenceTypeOptions;
     }
 
-    getAbsenceTypeListItem(absenceType, label){
+    getAbsenceTypeOption(absenceType, label){
         let controlId = "absence-type-selector-" + absenceType;
+        if(!label) label = getReadableTypeName(absenceType);
 
         return(
-            <li key={absenceType}
-                onClick={() => this.typeSelectedHandler(absenceType)}
-            >
-                <label className={controlId + " mdl-radio mdl-js-radio mdl-js-ripple-effect"} for={controlId}>
-                    <input type="radio" id={controlId} className="mdl-radio__button" name="options" value="1" checked />
-                        <span className="mdl-radio__label">{label || getReadableTypeName(absenceType)}</span>
-                </label>
+            <li key={absenceType}>
+                <RadioButton
+                    id={controlId}
+                    value={absenceType}
+                    label={label}
+                    toggleHandler={()=>this.optionSelectedHandler(absenceType)}
+                    name="absence-type-selector"
+                    checked={this.optionIsCurrentlySelected(absenceType)}
+                />
             </li>
         );
     }
 
-    typeSelectedHandler(absenceType){
-        console.log(absenceType);
+    optionIsCurrentlySelected(absenceType){
+        return absenceType === this.state.selectedAbsenceType;
+    }
+
+    optionSelectedHandler(absenceType){
+        this.setState({
+           selectedAbsenceType: absenceType
+        });
     }
 
 }
