@@ -23,7 +23,7 @@ export class TeamAbsenceTableBody extends Component {
                         key={user.id}
                         user={user}
                         dates={this.props.dates}
-                        absences={this.getAbsences(user)}
+                        absences={this.getAbsencesForUserByTimestamp(user)}
                     />
                 )
             }
@@ -32,11 +32,8 @@ export class TeamAbsenceTableBody extends Component {
         return rows;
     }
 
-    getAbsences(user){
-        let absences = this.props.absences.absencesByUserId[user.id];
-
-        if(absences) return absences;
-        else return [];
+    getAbsencesForUserByTimestamp(user){
+        return this.props.absences.getAbsencesForUserByTimestamp(user);
     }
 
 }
