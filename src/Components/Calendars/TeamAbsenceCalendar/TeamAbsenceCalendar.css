@@ -4,7 +4,7 @@
 }
 
 .absences-calendar tr.month-headers th,
-.absences-calendar tr.year-headers th{
+.absences-calendar tr.year-headers th {
     font-size: 1.4em;
     text-align: center;
     padding-left: 9px;
@@ -13,11 +13,9 @@
     padding-bottom: 0;
 }
 
-.absences-calendar tr.year-headers th{
+.absences-calendar tr.year-headers th {
     font-size: 0.9em;
 }
-
-
 
 .absences-calendar thead {
     border-top: none;
@@ -57,39 +55,39 @@
     cursor: pointer;
 }
 
-.absences-calendar tr.user-days td div.booked{
-    background-color: rgba(0,0,0, 0.5);
+.absences-calendar tr.user-days td div.booked {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.absences-calendar tr.user-days div.booked.absence-type-V{
+.absences-calendar tr.user-days div.booked.absence-type-V {
     background-color: rgba(0, 188, 212, 0.6)
 }
 
-.absences-calendar tr.user-days div.booked.absence-type-V:hover{
+.absences-calendar tr.user-days div.booked.absence-type-V:hover {
     background-color: rgba(0, 188, 212, 0.8)
 }
 
-.absences-calendar tr.user-days div.booked.conflict{
-    background-color: rgba(255,0,0, 0.5);
+.absences-calendar tr.user-days div.booked.conflict {
+    background-color: rgba(255, 0, 0, 0.5);
 }
 
-.absences-calendar tr.user-days div.booked.conflict:hover{
-    background-color: rgba(255,0,0, 0.4);
+.absences-calendar tr.user-days div.booked.conflict:hover {
+    background-color: rgba(255, 0, 0, 0.4);
 }
 
-.absences-calendar tr.user-days div.booked.absence-type-P{
+.absences-calendar tr.user-days div.booked.absence-type-P {
     background-color: rgba(171, 71, 188, 0.6);
 }
 
-.absences-calendar tr.user-days div.booked.absence-type-P:hover{
+.absences-calendar tr.user-days div.booked.absence-type-P:hover {
     background-color: rgba(171, 71, 188, 0.8);
 }
 
-.absences-calendar tr.user-days div.booked.absence-type-T{
+.absences-calendar tr.user-days div.booked.absence-type-T {
     background-color: rgba(139, 195, 74, 0.6);
 }
 
-.absences-calendar tr.user-days div.booked.absence-type-T:hover{
+.absences-calendar tr.user-days div.booked.absence-type-T:hover {
     background-color: rgba(139, 195, 74, 0.8);
 }
 
@@ -105,4 +103,19 @@
 
 .absences-calendar tr.user-days td:not(:first-child) {
     font-size: 0.9em;
+}
+
+/*Edit Mode TODO - This sort of comment is not useful, CSS needs to be broken into components to reflect composition */
+.absences-calendar.edit-mode tr.user-days:not(.owned-by-current-user) td:not(.weekend) {
+    background-color: rgba(0,0,0,0.05);
+    color: rgba(0,0,0,0.4);
+}
+
+.absences-calendar.edit-mode tr.user-days:not(.owned-by-current-user) td div:hover {
+    background-color: transparent;
+}
+
+
+.absences-calendar.edit-mode tr.user-days.owned-by-current-user:hover {
+    background-color: transparent;
 }

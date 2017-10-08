@@ -6,7 +6,8 @@ const mapStateToProps = (state) => {
         absences: state.absences,
         users: state.users,
         dates: state.teamCalendar.visibleDates,
-        currentUserId: state.auth.currentUserId
+        currentUserId: state.auth.currentUserId,
+        editMode: state.interaction.absenceEditEnabled
     }
 };
 
