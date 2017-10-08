@@ -25,16 +25,6 @@ export class RadioButton extends Component {
         this.props.toggleHandler(this.props.value);
     }
 
-    componentDidUpdate(prevProps) { //We have to go a little too low in order to control MDL's dom manipulation - TODO - consider a 3rd party lib for MDL -> React
-        if (this.props.disabled !== prevProps.disabled) {
-            this.setEnabledState();
-        }
-
-        if (this.props.checked !== prevProps.checked) {
-            this.setDisabledState();
-        }
-    }
-
     setEnabledState(){
         if(this.props.disabled) {
             ReactDOM.findDOMNode(this).MaterialRadio.disable();
@@ -50,6 +40,22 @@ export class RadioButton extends Component {
         }
         else {
             ReactDOM.findDOMNode(this).MaterialRadio.uncheck();
+        }
+    }
+
+    componentDidMount(){
+        if(window.componentHandler){ //TODO - there is an issue in execution order which makes this method not available on first render
+            window.componentHandler.upgradeElement(ReactDOM.findDOMNode(this)); //MDL needs to be instructed to upgrade the component if it isn't visible in the first render
+        }
+    }
+
+    componentDidUpdate(prevProps) { //We have to go a little too low in order to control MDL's dom manipulation - TODO - consider a 3rd party lib for MDL -> React
+        if (this.props.disabled !== prevProps.disabled) {
+            this.setEnabledState();
+        }
+
+        if (this.props.checked !== prevProps.checked) {
+            this.setDisabledState();
         }
     }
 }

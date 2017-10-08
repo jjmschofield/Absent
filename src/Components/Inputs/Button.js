@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import ReactDOM from 'react-dom';
 
 export class Button extends Component {
     render() {
@@ -44,6 +44,13 @@ export class Button extends Component {
 
         return classNames.join(" ");
 
+    }
+
+
+    componentDidMount(){
+        if(window.componentHandler){ //TODO - there is an issue in execution order which makes this method not available on first render
+            window.componentHandler.upgradeElement(ReactDOM.findDOMNode(this)); //MDL needs to be instructed to upgrade the component if it isn't visible in the first render
+        }
     }
 
 }
