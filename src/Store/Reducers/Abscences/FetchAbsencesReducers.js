@@ -9,12 +9,24 @@ export function fetchAbsencesRequest(absencesState, action){
 
 export function fetchAbsencesSuccess(absencesState, action){
     return Object.assign({}, absencesState, {
+        absencesById: getAbsencesByIdFromApiResponse(action.apiJsonResponse),
         absencesByTimestamp: getAbsencesByDateFromApiResponse(action.apiJsonResponse),
         absencesByUserId: getAbsencesByUserIdFromApiResponse(action.apiJsonResponse), //TODO - this is nasty nesting (and duplication), if absences had a unique ID this could be simplified
         isFetching: false,
         fetchError: false,
         lastUpdated: new Date()
     });
+}
+
+function getAbsencesByIdFromApiResponse(apiJsonResponse){
+    let absencesById = {};
+
+    for(let i = 0; i < apiJsonResponse.length; i++){
+        let absence = getAbsenceFromApiResponse(apiJsonResponse[i]);
+        absencesById[absence.id] = absence;
+    }
+
+    return absencesById;
 }
 
 function getAbsencesByDateFromApiResponse(apiJsonResponse){
@@ -34,6 +46,7 @@ function getAbsencesByDateFromApiResponse(apiJsonResponse){
 
 function getAbsenceFromApiResponse(apiAbsenceObject){
    return  new Absence(
+       apiAbsenceObject.id,
        apiAbsenceObject.userid,
        apiAbsenceObject.date,
        apiAbsenceObject.unit,
