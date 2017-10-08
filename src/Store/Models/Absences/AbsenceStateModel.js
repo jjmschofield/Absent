@@ -15,9 +15,13 @@ function getAbsencesForUserByTimestamp(user){
     for(let i = 0; i < user.absences.length; i++){
         let absence = this.absencesById[user.absences[i]];
 
-        if(!absences[absence.timestamp]) absences[absence.timestamp] = [];
-
-        absences[absence.timestamp].push(absence)
+        if(absence){
+            if(!absences[absence.timestamp]) absences[absence.timestamp] = [];
+            absences[absence.timestamp].push(absence);
+        }
+        else{
+            console.warn("Invalid relationship with absence Id of " + user.absences[i], user)
+        }
     }
 
     return absences;

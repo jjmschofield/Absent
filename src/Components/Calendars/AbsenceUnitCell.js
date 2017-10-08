@@ -99,7 +99,7 @@ export class AbsenceUnitCell extends Component {
 
     removeAbsence(){
         if(this.props.absence.type !== AbsenceTypes.PUBLIC_HOLIDAY){ //TODO - we do not allow public holidays to be edited at the moement (as they cannot be re-added)
-            console.log("remove", this.props.absence);
+            this.props.removeAbsence(this.props.absence);
         }
     }
 

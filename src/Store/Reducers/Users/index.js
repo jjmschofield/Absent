@@ -4,7 +4,7 @@ import {
     ADD_ABSENCE_TO_USER, REMOVE_ABSENCE_FROM_USER
 } from '../../Actions/Users';
 import {fetchUsersRequest, fetchUsersSuccess, fetchUsersFailure} from './FetchUsersReducers';
-import {addAbsenceToUser} from './RelateUserToAbsenceReducers';
+import {addAbsenceToUser, removeAbsenceFromUSer} from './RelateUserToAbsenceReducers';
 
 export default function users(usersState = new UsersState(), action) {
     switch (action.type) {
@@ -20,6 +20,10 @@ export default function users(usersState = new UsersState(), action) {
         //RELATE TODO - these only exist as there is no database tracking the relationships between entities - typically we might refresh the whole user object for consistency
         case ADD_ABSENCE_TO_USER:
             return addAbsenceToUser(usersState, action);
+
+        case REMOVE_ABSENCE_FROM_USER:
+            return removeAbsenceFromUSer(usersState, action);
+
 
         default:
             return usersState

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import {AbsenceUnitCell} from './AbsenceUnitCell';
-import {addAbsence, updateAbsences} from '../../Store/Actions/Absences';
+import {addAbsence, updateAbsences, removeAbsence} from '../../Store/Actions/Absences';
 
 const mapStateToProps = (state) => {
     return {
@@ -13,7 +13,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         updateAbsence: (absence) => dispatch(updateAbsences(absence)),
-        addAbsence: (absence) => dispatch(addAbsence(absence))
+        addAbsence: (absence) => dispatch(addAbsence(absence)),
+        removeAbsence: (absence) => dispatch(removeAbsence(absence))
     }
 };
 
