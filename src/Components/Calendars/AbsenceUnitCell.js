@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import {AbsenceTypes} from '../../Store/Models/Absences/AbsenceTypes';
+import {Absence} from '../../Store/Models/Absences/AbsenceModel';
+import {HttpMethodTypes} from '../../Store/Helpers/ApiHelpers';
 
 export class AbsenceUnitCell extends Component {
 
@@ -47,12 +50,58 @@ export class AbsenceUnitCell extends Component {
 
     clickHandler() {
         if (this.canInteract()) {
-            console.log(this.props);
+            if (this.isNewAbsence()) this.addNewAbsence();
+            else if (this.isRemoveAbsence()) this.removeAbsence();
+            else if (this.isUpdatedAbsence()) this.updateAbsence();
         }
     }
 
     canInteract() {
         return this.props.editMode && this.props.user.id === this.props.currentUserId;
+    }
+
+    isNewAbsence(){
+        return (
+            !this.props.absence
+            && this.props.selectedAbsenceEditType !== AbsenceTypes.PRESENT
+        )
+    }
+
+    isRemoveAbsence(){
+        return (
+            this.props.absence
+            && (
+                this.props.selectedAbsenceEditType === AbsenceTypes.PRESENT
+                || this.props.absence.type === this.props.selectedAbsenceEditType
+            )
+        );
+    }
+
+    isUpdatedAbsence(){
+        return (
+            this.props.absence
+            && this.props.selectedAbsenceEditType !== AbsenceTypes.PRESENT
+            && this.props.absence.type !== this.props.selectedAbsenceEditType
+        )
+    }
+
+    addNewAbsence(){
+        console.log("new", new Absence(null,this.props.user.id, this.props.date, this.props.unit,this.props.selectedAbsenceEditType));
+    }
+
+    removeAbsence(){
+        if(this.props.absence.type !== AbsenceTypes.PUBLIC_HOLIDAY){ //TODO - we do not allow public holidays to be edited at the moement (as they cannot be re-added)
+            console.log("remove", this.props.absence);
+        }
+    }
+
+    updateAbsence(){
+        if(this.props.absence.type !== AbsenceTypes.PUBLIC_HOLIDAY) { //TODO - we do not allow public holidays to be edited at the moement (as they cannot be re-added)
+            let updateAbsence = Object.assign({}, this.props.absence,{
+                type: this.props.selectedAbsenceEditType
+            });
+            console.log("update", updateAbsence);
+        }
     }
 }
 
