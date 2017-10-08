@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {LogoIcon} from '../Icons/index';
-import AbsenceEditModeToggleButton from '../Inputs/AbsenceEditModeToggleButtonContainer';
-import TeamCalendarSceneToolbar from '../Calendars/TeamAbsenceCalendar/TeamAbsenceCalendarDateControlContainer';
+import {TeamCalendarSceneToolbar} from '../Toolbars/TeamCalendarSceneToolbar';
 import AbsenceEditToolBar from '../Toolbars/AbsenceEditToolbarContainer';
 import './ViewHeader.css';
 
@@ -17,8 +16,6 @@ export class ViewHeader extends Component {
                     </div>
                     <div className="mdl-layout-spacer"></div>
                     <TeamCalendarSceneToolbar />
-                    <div className="mdl-layout-spacer"></div>
-                    <AbsenceEditModeToggleButton />
                 </div>
                 <AbsenceEditToolBar />
             </header>
