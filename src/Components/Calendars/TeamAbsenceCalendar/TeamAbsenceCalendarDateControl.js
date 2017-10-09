@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {getDatesAfter, getFullMonthName} from '../../../Store/Helpers/DateHelpers';
-import './TeamAbsenceCalendarDateControl.css';
+import {Button} from '../../Inputs/Button';
 
 export class TeamAbsenceCalendarDateControl extends Component {
 
@@ -13,9 +13,15 @@ export class TeamAbsenceCalendarDateControl extends Component {
     render() {
         return (
             <div className="team-calendar-date-control mdl-navigation">
-                <a className="mdl-navigation__link" onClick={this.gotoPreviousMonth}><i className="material-icons">keyboard_arrow_left</i></a>
-                <a className="mdl-navigation__link">{this.getLabel()}</a>
-                <a className="mdl-navigation__link" onClick={this.gotoNextMonth}><i className="material-icons">keyboard_arrow_right</i></a>
+                <Button clickHandler={()=>this.gotoPreviousMonth()}>
+                    <i className="material-icons">keyboard_arrow_left</i>
+                </Button>
+                <Button clickHandler={()=>{}}>
+                    {this.getLabel()}
+                </Button>
+                <Button clickHandler={()=>this.gotoNextMonth()}>
+                    <i className="material-icons">keyboard_arrow_right</i>
+                </Button>
             </div>
         )
     }

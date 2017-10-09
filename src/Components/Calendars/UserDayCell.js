@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {isWeekend} from '../../Store/Helpers/DateHelpers';
-import {AbsenceUnitCell} from './AbsenceUnitCell';
+import AbsenceUnitCell from './AbsenceUnitCellContainer';
 
 export class UserDayCell extends Component {
 
@@ -8,10 +8,21 @@ export class UserDayCell extends Component {
         return (
             <td className={this.getUserDayConditionalClasses()}>
                 {this.props.date.getDate()}
-                <AbsenceUnitCell unit="AM" absence={this.getAbsenceByUnit("AM")}/>
-                <AbsenceUnitCell unit="PM" absence={this.getAbsenceByUnit("PM")}/>
+                {this.renderAbsenceUnitCell("AM")}
+                {this.renderAbsenceUnitCell("PM")}
             </td>
         )
+    }
+
+    renderAbsenceUnitCell(unit){
+        return(
+            <AbsenceUnitCell
+                unit={unit}
+                absence={this.getAbsenceByUnit(unit)}
+                date={this.props.date}
+                user={this.props.user}
+            />
+        );
     }
 
     getAbsenceByUnit(unit){
@@ -21,7 +32,7 @@ export class UserDayCell extends Component {
                 if(absence.unit === unit) return absence;
             }
         }
-        return null
+        return null;
     }
 
     getUserDayConditionalClasses() {
