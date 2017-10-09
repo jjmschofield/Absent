@@ -47,6 +47,7 @@ Due to time constraints multiple known issues are still apparent within this rap
 * prop-types have not been used
 * The underlying UI library does not play nicely with SPAs out of the box, presenting numerous gotchyas - switching to a bridging library such as [react-mdl](https://github.com/react-mdl/react-mdl) would be wise to reduce effort
 * Composition of CSS is not 100% elegant due to time constraints - a pre-processor should also be added to make variables and mixins available.
+* Every unit of absence edited will currently result in an API request - this will not scale well due to the HTTP request overhead, it will also likely result in a laggy UI. Recommend either batching / staging or making use of  real time communication prototcol - this would could also allow a user to see other users edits in real time.
 * The sample data has been extended with a UID to allow for storing absences by ID with out an over complicated code implementation
 * For the sake of the demo the "today" date is hard coded to an interesting point in the data
 * For the sake of the demo, the logged in user is always the user with an id of 1
