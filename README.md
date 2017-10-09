@@ -27,7 +27,8 @@ Due to time constraints multiple known issues are still apparent within this rap
 * The solution is not responsive
 * The solution has not been manually cross browser tested
 * The solution is not covered by automated tests
-* Storage of Absences is memory inefficient (they are stored in the redux store by both UserID and timestamp to allow inexpensive access).
+* prop-types have not been used
+* The underlying UI library does not play nicely with SPAs out of the box, presenting numerous gotchyas - switching to a bridging library such as [react-mdl](https://github.com/react-mdl/react-mdl) would be wise to reduce effort
 * Composition of CSS is not 100% elegant due to time constraints - a pre-processor should also be added to make variables and mixins available.
 * For the sake of the demo the "today" date is hard coded to an interesting point in the data
 

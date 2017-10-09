@@ -1,0 +1,111 @@
+.absence-type-selectors {
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.absence-type-selectors li {
+    display: inline-block;
+}
+
+.absence-type-selectors li:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.absence-type-selectors .is-checked {
+    font-weight: 600;
+}
+
+.absence-type-selectors .mdl-radio__outer-circle,
+.absence-type-selectors .mdl-radio__inner-circle,
+.absence-type-selectors .mdl-radio__ripple-container {
+    border-radius: 0;
+}
+
+/* TODO - the lack of pre-processing the composition here, using comments to break up huge stylesheets is bad
+/*Vacation Selector Styling */
+.absence-type-selectors .absence-type-selector-V .mdl-radio__label {
+    color: rgba(0, 188, 212, 0.9)
+}
+
+.absence-type-selectors .absence-type-selector-V .mdl-radio__outer-circle {
+    border-color: rgba(0, 188, 212, 0.6)
+}
+
+.absence-type-selectors .absence-type-selector-V .mdl-radio__inner-circle {
+    background-color: rgba(0, 188, 212, 0.6)
+}
+
+.absence-type-selectors .absence-type-selector-V .mdl-radio__ripple-container .mdl-ripple {
+    background-color: rgba(0, 188, 212, 0.4)
+}
+
+.absence-type-selectors .absence-type-selector-V.is-checked .mdl-radio__label {
+    color: rgba(0, 188, 212, 0.9)
+}
+
+.absence-type-selectors .absence-type-selector-V.is-checked .mdl-radio__outer-circle {
+    border-color: rgba(0, 188, 212, 0.8)
+}
+
+.absence-type-selectors .absence-type-selector-V.is-checked .mdl-radio__inner-circle {
+    background-color: rgba(0, 188, 212, 0.8)
+}
+
+/*Training Selector Styling */
+.absence-type-selectors .absence-type-selector-T .mdl-radio__label {
+    color: rgba(139, 195, 74, 0.9)
+}
+
+.absence-type-selectors .absence-type-selector-T .mdl-radio__outer-circle {
+    border-color: rgba(139, 195, 74, 0.6)
+}
+
+.absence-type-selectors .absence-type-selector-T .mdl-radio__inner-circle {
+    background-color: rgba(139, 195, 74, 0.6)
+}
+
+.absence-type-selectors .absence-type-selector-T .mdl-radio__ripple-container .mdl-ripple {
+    background-color: rgba(139, 195, 74, 0.4)
+}
+
+.absence-type-selectors .absence-type-selector-T.is-checked .mdl-radio__label {
+    color: rgba(139, 195, 74, 0.9)
+}
+
+.absence-type-selectors .absence-type-selector-T.is-checked .mdl-radio__outer-circle {
+    border-color: rgba(139, 195, 74, 0.8)
+}
+
+.absence-type-selectors .absence-type-selector-T.is-checked .mdl-radio__inner-circle {
+    background-color: rgba(139, 195, 74, 0.8)
+}
+
+/*Present Absence Selectors*/
+.absence-type-selectors .absence-type-selector-null .mdl-radio__label {
+    color: rgba(0, 0, 0, 0.4)
+}
+
+.absence-type-selectors .absence-type-selector-null .mdl-radio__outer-circle {
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.absence-type-selectors .absence-type-selector-null .mdl-radio__inner-circle {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.absence-type-selectors .absence-type-selector-null .mdl-radio__ripple-container .mdl-ripple {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.absence-type-selectors .absence-type-selector-null.is-checked .mdl-radio__label {
+    color: rgba(0, 0, 0, 0.4)
+}
+
+.absence-type-selectors .absence-type-selector-null.is-checked .mdl-radio__outer-circle {
+    border-color: rgba(0, 0, 0, 0.4)
+}
+
+.absence-type-selectors .absence-type-selector-null.is-checked .mdl-radio__inner-circle {
+    background-color: rgba(0, 0, 0, 0.4)
+}

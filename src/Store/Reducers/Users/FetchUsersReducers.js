@@ -22,8 +22,10 @@ function getUsersByIdFromApiResponse(apiJsonResponse){
     let usersById = {};
 
     for(let i = 0; i < apiJsonResponse.length; i++){
-        let user = apiJsonResponse[i];
-        usersById[user.userid] = new User(user.userid, user.name); //TODO - note that we are not de-duping the CSV data set, it's expected that an API would only return one object per user, as users are keyed by ID the resultant object will be (implicitly) de-duped
+        let absence = apiJsonResponse[i]; //TODO - we are currently assuming users from a single CSV response which represents absences
+
+        if(!usersById[absence.userid]) usersById[absence.userid] = new User(absence.userid, absence.name);
+        usersById[absence.userid].absences.push(absence.id)
     }
 
     return usersById;
